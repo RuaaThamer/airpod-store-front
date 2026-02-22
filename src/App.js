@@ -4,11 +4,9 @@ import AirPodCard from './components/AirPodCard';
 
 function App() {
   const [products, setProducts] = useState([]);
-  const [isLoading, setIsLoading] = useState(true); // Added to manage loading state
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Phase 2: Live Data Integration
-    // Swapping local mock data with a fetch() call to Partner B's Azure Function
     const getCloudProducts = async () => {
       try {
         const response = await fetch('https://airpods-api-v2-gadzg9ezeagge4ev.canadacentral-01.azurewebsites.net/api/GetProducts');
@@ -37,7 +35,6 @@ function App() {
       </header>
       
       <main style={gridStyle}>
-        {/* If loading, show a message. If done, map through live cloud data */}
         {isLoading ? (
           <p style={{ fontSize: '1.2rem', color: '#86868b' }}>Connecting to cloud database...</p>
         ) : (
@@ -53,8 +50,6 @@ function App() {
     </div>
   );
 }
-
-// --- CSS-in-JS Styles ---
 
 const pageStyle = {
   background: 'linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%)',
