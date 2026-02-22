@@ -14,21 +14,21 @@ function App() {
         ModelName: "AirPods Pro (2nd Gen)",
         Description: "Active Noise Cancellation and Adaptive Audio for immersive sound.",
         Price: 249,
-        ImageURL: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985"
+        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpodpro (2nd gen).jpg"
       },
       {
         ProductID: 2,
         ModelName: "AirPods Max",
         Description: "High-fidelity audio and luxurious over-ear design for total comfort.",
         Price: 549,
-        ImageURL: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-silver-202011?wid=940&hei=1112&fmt=png-alpha&.v=1604021221000"
+        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpods-max-select-silver-202011.png"
       },
       {
         ProductID: 3,
         ModelName: "AirPods (3rd Gen)",
         Description: "Personalized Spatial Audio with dynamic head tracking technology.",
         Price: 169,
-        ImageURL: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000"
+        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpod 3gen.jpg"
       }
     ];
 
