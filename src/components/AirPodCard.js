@@ -83,7 +83,7 @@ const priceStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: '#0071e3',
+  backgroundColor: '#e9ecef',
   color: '#ffffff',
   border: 'none',
   padding: '12px 24px',
