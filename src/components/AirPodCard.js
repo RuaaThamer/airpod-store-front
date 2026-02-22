@@ -35,7 +35,7 @@ const AirPodCard = ({ product }) => {
 // --- Component Styles ---
 
 const cardStyle = {
-  backgroundColor: '#e9ecef', // Your custom sky blue color
+  backgroundColor: '#e9ecef', // 
   border: '1px solid rgba(0,0,0,0.05)',
   borderRadius: '24px',
   padding: '30px',
@@ -88,7 +88,7 @@ const priceStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: 'e9ecef', // Apple blue color
+  backgroundColor: '#0071e3', 
   color: '#ffffff',
   border: 'none',
   padding: '12px 24px',
