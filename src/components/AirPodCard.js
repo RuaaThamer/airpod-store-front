@@ -7,13 +7,13 @@ const AirPodCard = ({ product }) => {
       <div style={imageContainer}>
         <img 
           src={product.ImageURL} 
-          alt={product.ModelName} 
+          alt={product.Name} 
           style={imageStyle} 
         />
       </div>
 
       {/* Product Details */}
-      <h2 style={nameStyle}>{product.ModelName}</h2>
+      <h2 style={nameStyle}>{product.Name}</h2>
       <p style={descriptionStyle}>{product.Description}</p>
       
       <div style={priceContainer}>
