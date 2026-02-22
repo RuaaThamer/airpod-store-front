@@ -4,35 +4,29 @@ import AirPodCard from './components/AirPodCard';
 
 function App() {
   const [products, setProducts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true); // Added to manage loading state
 
   useEffect(() => {
-    // Phase 1: Local Data (Three Products)
-    // This mimics the structure Partner B will use in the SQL database later.
-    const initialData = [
-      {
-        ProductID: 1,
-        ModelName: "AirPods Pro (2nd Gen)",
-        Description: "Active Noise Cancellation and Adaptive Audio for immersive sound.",
-        Price: 249,
-        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpodpro (2nd gen).jpg"
-      },
-      {
-        ProductID: 2,
-        ModelName: "AirPods Max",
-        Description: "High-fidelity audio and luxurious over-ear design for total comfort.",
-        Price: 549,
-        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpods-max-select-silver-202011.png"
-      },
-      {
-        ProductID: 3,
-        ModelName: "AirPods (3rd Gen)",
-        Description: "Personalized Spatial Audio with dynamic head tracking technology.",
-        Price: 169,
-        ImageURL: "https://stairpodsphotos.blob.core.windows.net/airpod-images/airpod 3gen.jpg"
-      }
-    ];
+    // Phase 2: Live Data Integration
+    // Swapping local mock data with a fetch() call to Partner B's Azure Function
+    const getCloudProducts = async () => {
+      try {
+        const response = await fetch('https://airpods-api-v2-gadzg9ezeagge4ev.canadacentral-01.azurewebsites.net/api/GetProducts');
+        
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
 
-    setProducts(initialData);
+        const data = await response.json();
+        setProducts(data);
+        setIsLoading(false);
+      } catch (error) {
+        console.error("Failed to fetch products from Azure:", error);
+        setIsLoading(false);
+      }
+    };
+
+    getCloudProducts();
   }, []);
 
   return (
@@ -43,13 +37,18 @@ function App() {
       </header>
       
       <main style={gridStyle}>
-        {products.map(item => (
-          <AirPodCard key={item.ProductID} product={item} />
-        ))}
+        {/* If loading, show a message. If done, map through live cloud data */}
+        {isLoading ? (
+          <p style={{ fontSize: '1.2rem', color: '#86868b' }}>Connecting to cloud database...</p>
+        ) : (
+          products.map(item => (
+            <AirPodCard key={item.ProductID} product={item} />
+          ))
+        )}
       </main>
 
       <footer style={footerStyle}>
-        <p>© 2026 AirPods Storefront Project - Phase 1 Complete</p>
+        <p>© 2026 AirPods Storefront Project - Phase 2 Integration Complete</p>
       </footer>
     </div>
   );
