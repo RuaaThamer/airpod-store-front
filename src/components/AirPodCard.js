@@ -23,8 +23,8 @@ const AirPodCard = ({ product }) => {
       {/* Action Button */}
       <button 
         style={buttonStyle}
-        onMouseOver={(e) => e.target.style.backgroundColor = '#e9ecef'}
-        onMouseOut={(e) => e.target.style.backgroundColor = '#e9ecef'}
+        onMouseOver={(e) => e.target.style.backgroundColor = '#005bb5'}
+        onMouseOut={(e) => e.target.style.backgroundColor = '#0071e3'}
       >
         Buy Now
       </button>
@@ -88,7 +88,7 @@ const priceStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: '#e9ecef', 
+  backgroundColor: 'e9ecef', // Apple blue color
   color: '#ffffff',
   border: 'none',
   padding: '12px 24px',
