@@ -22,12 +22,20 @@ const AirPodCard = ({ product }) => {
 
       {/* Action Button */}
       <button 
-        style={buttonStyle}
-        onMouseOver={(e) => e.target.style.backgroundColor = '#005bb5'}
-        onMouseOut={(e) => e.target.style.backgroundColor = '#0071e3'}
-      >
-        Buy Now
-      </button>
+  style={buttonStyle}
+  onMouseOver={(e) => {
+    e.target.style.backgroundColor = '#005bb5';
+    e.target.style.color = '#ffffff';
+  }}
+  onMouseOut={(e) => {
+    e.target.style.backgroundColor = '#e9ecef';
+    e.target.style.color = '#1d1d1f';
+  }}
+  // Add this line to handle the click
+  onClick={() => console.log(`Request sent: Buying ${product.Name}`)}
+>
+  Buy Now
+</button>
     </div>
   );
 };
