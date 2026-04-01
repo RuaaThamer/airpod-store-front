@@ -14,7 +14,7 @@ function App() {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-
+        // App.js - The Cloud Fetch
         const data = await response.json();
         setProducts(data);
         setIsLoading(false);
