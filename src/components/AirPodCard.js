@@ -116,3 +116,5 @@ const buttonStyle = {
   transition: 'background-color 0.2s ease',
   marginTop: '10px'
 };
+
+export default AirPodCard;
