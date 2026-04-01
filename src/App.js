@@ -4,6 +4,9 @@ import AirPodCard from './components/AirPodCard';
 
 function App() {
   const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]); // State for the filtered view
+  const [categories, setCategories] = useState(["All"]); // State for category buttons
+  const [activeCategory, setActiveCategory] = useState("All");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -14,9 +17,18 @@ function App() {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        // App.js - The Cloud Fetch
+        
         const data = await response.json();
+        console.log("API Data received:", data); // Check your console to see the property names!
+        
         setProducts(data);
+        setFilteredProducts(data);
+
+        // Dynamically create category list based on API data
+        // Change 'Category' to 'category' if your API uses lowercase!
+        const uniqueCategories = ["All", ...new Set(data.map(item => item.Category || "General"))];
+        setCategories(uniqueCategories);
+        
         setIsLoading(false);
       } catch (error) {
         console.error("Failed to fetch products from Azure:", error);
@@ -27,18 +39,50 @@ function App() {
     getCloudProducts();
   }, []);
 
+  // Filtering function
+  const handleFilter = (selectedCategory) => {
+    setActiveCategory(selectedCategory);
+    if (selectedCategory === "All") {
+      setFilteredProducts(products);
+    } else {
+      // Logic: only show products matching the category
+      const filtered = products.filter(p => p.Category === selectedCategory);
+      setFilteredProducts(filtered);
+    }
+  };
+
   return (
     <div className="App" style={pageStyle}>
       <header style={headerStyle}>
         <h1 style={titleStyle}>AirPods Store</h1>
         <p style={subtitleStyle}>Experience the magic of sound.</p>
+        
+        {/* --- Category Navigation Bar --- */}
+        {!isLoading && (
+          <div style={navContainerStyle}>
+            {categories.map(cat => (
+              <button 
+                key={cat}
+                onClick={() => handleFilter(cat)}
+                style={{
+                  ...categoryButtonStyle,
+                  backgroundColor: activeCategory === cat ? '#0071e3' : 'transparent',
+                  color: activeCategory === cat ? '#ffffff' : '#1d1d1f',
+                  border: activeCategory === cat ? '1px solid #0071e3' : '1px solid #d2d2d7'
+                }}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
       </header>
       
       <main style={gridStyle}>
         {isLoading ? (
           <p style={{ fontSize: '1.2rem', color: '#86868b' }}>Connecting to cloud database...</p>
         ) : (
-          products.map(item => (
+          filteredProducts.map(item => (
             <AirPodCard key={item.ProductID} product={item} />
           ))
         )}
@@ -50,6 +94,26 @@ function App() {
     </div>
   );
 }
+
+// --- Styles ---
+
+const navContainerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  gap: '12px',
+  marginTop: '30px',
+  flexWrap: 'wrap'
+};
+
+const categoryButtonStyle = {
+  padding: '8px 22px',
+  borderRadius: '20px',
+  fontSize: '0.9rem',
+  fontWeight: '500',
+  cursor: 'pointer',
+  transition: 'all 0.3s ease',
+  outline: 'none'
+};
 
 const pageStyle = {
   background: 'linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%)',

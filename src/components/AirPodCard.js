@@ -3,7 +3,9 @@ import React from 'react';
 const AirPodCard = ({ product }) => {
   return (
     <div style={cardStyle}>
-      {/* Product Image Container */}
+      {/* 1. Added a Category Tag at the top */}
+      <div style={categoryTagStyle}>{product.Category}</div>
+
       <div style={imageContainer}>
         <img 
           src={product.ImageURL} 
@@ -12,7 +14,6 @@ const AirPodCard = ({ product }) => {
         />
       </div>
 
-      {/* Product Details */}
       <h2 style={nameStyle}>{product.Name}</h2>
       <p style={descriptionStyle}>{product.Description}</p>
       
@@ -20,22 +21,20 @@ const AirPodCard = ({ product }) => {
         <span style={priceStyle}>${product.Price}</span>
       </div>
 
-      {/* Action Button */}
       <button 
-  style={buttonStyle}
-  onMouseOver={(e) => {
-    e.target.style.backgroundColor = '#005bb5';
-    e.target.style.color = '#ffffff';
-  }}
-  onMouseOut={(e) => {
-    e.target.style.backgroundColor = '#e9ecef';
-    e.target.style.color = '#1d1d1f';
-  }}
-  // Add this line to handle the click
-  onClick={() => console.log(`Request sent: Buying ${product.Name}`)}
->
-  Buy Now
-</button>
+        style={buttonStyle}
+        onMouseOver={(e) => {
+          e.target.style.backgroundColor = '#005bb5';
+          e.target.style.color = '#ffffff';
+        }}
+        onMouseOut={(e) => {
+          e.target.style.backgroundColor = '#0071e3'; // Kept original blue
+          e.target.style.color = '#ffffff';
+        }}
+        onClick={() => console.log(`Request sent: Buying ${product.Name}`)}
+      >
+        Buy Now
+      </button>
     </div>
   );
 };
@@ -43,7 +42,7 @@ const AirPodCard = ({ product }) => {
 // --- Component Styles ---
 
 const cardStyle = {
-  backgroundColor: '#e9ecef', // 
+  backgroundColor: '#e9ecef', 
   border: '1px solid rgba(0,0,0,0.05)',
   borderRadius: '24px',
   padding: '30px',
@@ -53,7 +52,17 @@ const cardStyle = {
   flexDirection: 'column',
   justifyContent: 'space-between',
   boxShadow: '0 10px 20px rgba(0,0,0,0.08)',
-  transition: 'all 0.3s ease'
+  transition: 'all 0.3s ease',
+  position: 'relative' // Added for better tag placement
+};
+
+const categoryTagStyle = {
+  fontSize: '0.7rem',
+  textTransform: 'uppercase',
+  letterSpacing: '0.1em',
+  color: '#86868b',
+  fontWeight: '700',
+  marginBottom: '10px'
 };
 
 const imageContainer = {
@@ -107,5 +116,3 @@ const buttonStyle = {
   transition: 'background-color 0.2s ease',
   marginTop: '10px'
 };
-
-export default AirPodCard;
