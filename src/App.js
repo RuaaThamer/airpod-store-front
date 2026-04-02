@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const getCloudProducts = async () => {
       try {
-        const response = await fetch('https://airpods-api-v2-gadzg9ezeagge4ev.canadacentral-01.azurewebsites.net/api/GetProducts');
+        const response = await fetch('https://store-api-hhgjhudjf3d9f6f6.canadacentral-01.azurewebsites.net/api/GetProducts');
         
         if (!response.ok) {
           throw new Error('Network response was not ok');
