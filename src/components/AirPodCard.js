@@ -123,14 +123,16 @@ const buttonStyle = {
   backgroundColor: '#0071e3', 
   color: '#ffffff',
   border: 'none',
-  padding: '12px 24px',
-  borderRadius: '24px',
-  fontSize: '1rem',
+  padding: '8px 20px',
+  borderRadius: '20px',
+  fontSize: '0.9rem',
   fontWeight: '500',
   cursor: 'pointer',
   transition: 'background-color 0.2s ease',
-  width: '100%',
-  textAlign: 'center'
+  width: 'fit-content',
+  margin: '0 auto',
+  textAlign: 'center',
+  minWidth: '140px'
 };
 
 export default AirPodCard;
