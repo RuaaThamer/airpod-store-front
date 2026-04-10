@@ -1,0 +1,1001 @@
+TransactionID,CustomerID,Age,Gender,ItemPurchased,Category,PurchaseAmount_USD,Season,ReviewRating
+1001,C0998,60,Female,AirPods 4,Earbuds,249,Spring,4.9
+1002,C0100,51,Male,AirPods 4,Earbuds,249,Winter,4.2
+1003,C0008,45,Female,AirPods Pro 3,Earbuds,329,Winter,4.7
+1004,C0659,50,Male,AirPods Pro 3,Earbuds,329,Spring,4.6
+1005,C0137,59,Female,AirPods 4,Earbuds,249,Spring,4.8
+1006,C0108,47,Male,AirPods Pro 3,Earbuds,329,Fall,4.3
+1007,C0229,27,Female,AirPods 4,Earbuds,249,Summer,4.8
+1008,C0625,38,Male,AirPods 3,Earbuds,179,Fall,4.3
+1009,C0871,59,Non-binary,AirPods 3,Earbuds,179,Winter,4.7
+1010,C0943,23,Female,AirPods 3,Earbuds,179,Fall,4.2
+1011,C0320,56,Female,AirPods 4,Earbuds,249,Fall,4.5
+1012,C0597,31,Male,AirPods Pro 3,Earbuds,329,Spring,4.3
+1013,C0992,27,Male,AirPods 4,Earbuds,249,Summer,4.6
+1014,C0441,51,Female,AirPods Pro 3,Earbuds,329,Spring,4.6
+1015,C0191,59,Male,AirPods Pro 3,Earbuds,329,Spring,4.6
+1016,C0437,56,Male,AirPods Pro 3,Earbuds,329,Summer,5
+1017,C0909,51,Male,AirPods Pro 3,Earbuds,329,Fall,4.3
+1018,C0937,33,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1019,C0488,37,Male,AirPods Pro 3,Earbuds,329,Spring,2.5
+1020,C0631,44,Female,AirPods 4,Earbuds,249,Winter,4.3
+1021,C0398,29,Male,AirPods Pro 3,Earbuds,329,Fall,4.7
+1022,C0381,18,Female,AirPods 4,Earbuds,249,Summer,4.1
+1023,C0666,51,Female,AirPods Pro 3,Earbuds,329,Spring,3.7
+1024,C0568,41,Female,AirPods Max 2,Headphones,799,Fall,4.3
+1025,C0631,49,Male,AirPods 3,Earbuds,179,Spring,4.5
+1026,C0755,26,Female,AirPods 4,Earbuds,249,Winter,4.7
+1027,C0029,17,Male,AirPods 4,Earbuds,249,Spring,4.1
+1028,C0074,45,Male,AirPods 3,Earbuds,179,Fall,4.2
+1029,C0099,26,Other,AirPods 4,Earbuds,249,Summer,4.8
+1030,C0437,24,Female,AirPods 4,Earbuds,249,Spring,4.2
+1031,C0348,21,Female,AirPods Pro 3,Earbuds,329,Fall,2.1
+1032,C0908,50,Female,AirPods Pro 3,Earbuds,329,Fall,4.8
+1033,C0833,34,Female,AirPods 3,Earbuds,179,Spring,4.4
+1034,C0678,21,Female,AirPods Pro 3,Earbuds,329,Spring,4.1
+1035,C0654,31,Male,AirPods 3,Earbuds,179,Winter,4.2
+1036,C0717,29,Male,AirPods Max 2,Headphones,799,Winter,1.6
+1037,C0814,22,Male,AirPods Pro 3,Earbuds,329,Winter,4.3
+1038,C0466,21,Male,AirPods 4,Earbuds,249,Fall,4.1
+1039,C0249,21,Male,AirPods Max 2,Headphones,799,Winter,4.3
+1040,C0004,33,Female,AirPods 4,Earbuds,249,Summer,4.5
+1041,C0658,47,Female,AirPods 3,Earbuds,179,Spring,4.6
+1042,C0815,59,Female,AirPods Pro 3,Earbuds,329,Fall,4.3
+1043,C0253,16,Female,AirPods Max 2,Headphones,799,Spring,4.5
+1044,C0737,25,Female,AirPods Pro 3,Earbuds,329,Spring,1.3
+1045,C0808,24,Male,AirPods Max 2,Headphones,799,Spring,4.7
+1046,C0197,16,Male,AirPods 4,Earbuds,249,Fall,4.3
+1047,C0741,37,Male,AirPods Max 2,Headphones,799,Spring,3.7
+1048,C0032,41,Female,AirPods 3,Earbuds,179,Spring,4.2
+1049,C0185,48,Female,AirPods Pro 3,Earbuds,329,Winter,4.8
+1050,C0248,26,Female,AirPods Pro 3,Earbuds,329,Spring,3.4
+1051,C0475,36,Female,AirPods 3,Earbuds,179,Fall,4.9
+1052,C0610,37,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1053,C0460,53,Male,AirPods 4,Earbuds,249,Winter,4.8
+1054,C0876,37,Male,AirPods 3,Earbuds,179,Spring,4.8
+1055,C0241,42,Male,AirPods 4,Earbuds,249,Winter,4.8
+1056,C0750,24,Female,AirPods Pro 3,Earbuds,329,Fall,4.5
+1057,C0140,19,Female,AirPods 4,Earbuds,249,Spring,4.1
+1058,C0153,27,Female,AirPods Pro 3,Earbuds,329,Summer,4.9
+1059,C0697,17,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1060,C0650,51,Female,AirPods 4,Earbuds,249,Summer,5
+1061,C0817,59,Female,AirPods Pro 3,Earbuds,329,Spring,4.4
+1062,C0962,56,Female,AirPods Max 2,Headphones,799,Summer,4.3
+1063,C0922,17,Female,AirPods Pro 3,Earbuds,329,Winter,4.9
+1064,C0457,33,Female,AirPods 4,Earbuds,249,Summer,4.4
+1065,C0831,41,Male,AirPods Pro 3,Earbuds,329,Winter,4.9
+1066,C0568,44,Female,AirPods 4,Earbuds,249,Summer,4.1
+1067,C0236,48,Male,AirPods Pro 3,Earbuds,329,Summer,4.1
+1068,C0854,58,Male,AirPods 4,Earbuds,249,Spring,4.3
+1069,C0197,60,Male,AirPods Pro 3,Earbuds,329,Summer,4.7
+1070,C0871,61,Male,AirPods Pro 3,Earbuds,329,Winter,5
+1071,C0930,45,Male,AirPods Pro 3,Earbuds,329,Spring,1.7
+1072,C0876,36,Male,AirPods 3,Earbuds,179,Summer,4.6
+1073,C0459,47,Male,AirPods 4,Earbuds,249,Summer,4.6
+1074,C0183,51,Male,AirPods 3,Earbuds,179,Summer,4.4
+1075,C0084,19,Female,AirPods 3,Earbuds,179,Spring,4.8
+1076,C0375,62,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1077,C0649,44,Male,AirPods 4,Earbuds,249,Winter,4.9
+1078,C0403,54,Male,AirPods 4,Earbuds,249,Summer,4.1
+1079,C0947,17,Male,AirPods 3,Earbuds,179,Summer,4.7
+1080,C0814,24,Male,AirPods 4,Earbuds,249,Summer,4.5
+1081,C0735,51,Male,AirPods 3,Earbuds,179,Spring,4.6
+1082,C0535,35,Female,AirPods Max 2,Headphones,799,Spring,4.7
+1083,C0596,52,Female,AirPods Pro 3,Earbuds,329,Summer,4.1
+1084,C0409,51,Non-binary,AirPods Max 2,Headphones,799,Spring,4.1
+1085,C0552,47,Female,AirPods Pro 3,Earbuds,329,Spring,2.9
+1086,C0468,61,Male,AirPods Pro 3,Earbuds,329,Fall,4.1
+1087,C0942,21,Male,AirPods Max 2,Headphones,799,Fall,4.3
+1088,C0918,54,Male,AirPods Pro 3,Earbuds,329,Summer,4.5
+1089,C0686,50,Female,AirPods 3,Earbuds,179,Spring,2.5
+1090,C0747,21,Male,AirPods 3,Earbuds,179,Summer,4.3
+1091,C0850,63,Male,AirPods 4,Earbuds,249,Summer,4.3
+1092,C0781,42,Male,AirPods 4,Earbuds,249,Spring,4.3
+1093,C0749,58,Male,AirPods 4,Earbuds,249,Winter,3.7
+1094,C0626,17,Male,AirPods 3,Earbuds,179,Winter,4.7
+1095,C0485,40,Female,AirPods 4,Earbuds,249,Spring,4.1
+1096,C0173,25,Female,AirPods 4,Earbuds,249,Winter,4.4
+1097,C0604,18,Female,AirPods Pro 3,Earbuds,329,Winter,4.2
+1098,C0328,37,Female,AirPods 4,Earbuds,249,Spring,4.7
+1099,C0424,33,Non-binary,AirPods Pro 3,Earbuds,329,Summer,4.7
+1100,C0853,55,Female,AirPods Pro 3,Earbuds,329,Spring,4.2
+1101,C0449,58,Non-binary,AirPods 3,Earbuds,179,Summer,4.6
+1102,C0019,18,Male,AirPods 3,Earbuds,179,Fall,4.3
+1103,C0323,39,Female,AirPods Max 2,Headphones,799,Spring,4.8
+1104,C0638,39,Female,AirPods Pro 3,Earbuds,329,Spring,4.8
+1105,C0263,26,Female,AirPods 4,Earbuds,249,Spring,4.8
+1106,C0676,37,Female,AirPods Max 2,Headphones,799,Spring,5
+1107,C0075,20,Female,AirPods 4,Earbuds,249,Summer,4.3
+1108,C0760,42,Female,AirPods 4,Earbuds,249,Fall,5
+1109,C0246,45,Male,AirPods 4,Earbuds,249,Fall,4.3
+1110,C0714,21,Female,AirPods 4,Earbuds,249,Spring,4.6
+1111,C0481,28,Female,AirPods Pro 3,Earbuds,329,Winter,4.9
+1112,C0387,27,Male,AirPods Pro 3,Earbuds,329,Spring,4.8
+1113,C0613,37,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1114,C0481,49,Non-binary,AirPods 4,Earbuds,249,Winter,4.7
+1115,C0020,32,Female,AirPods Pro 3,Earbuds,329,Summer,4.3
+1116,C0562,20,Male,AirPods Pro 3,Earbuds,329,Fall,4.1
+1117,C0798,25,Male,AirPods 4,Earbuds,249,Winter,4.1
+1118,C0965,63,Female,AirPods 4,Earbuds,249,Winter,4.2
+1119,C0636,26,Female,AirPods 4,Earbuds,249,Spring,4.3
+1120,C0234,31,Male,AirPods 4,Earbuds,249,Winter,4.9
+1121,C0945,28,Female,AirPods Max 2,Headphones,799,Winter,4.4
+1122,C0513,45,Male,AirPods 4,Earbuds,249,Spring,4
+1123,C0431,19,Male,AirPods 4,Earbuds,249,Summer,4.9
+1124,C0986,17,Female,AirPods Max 2,Headphones,799,Spring,4.6
+1125,C0771,59,Female,AirPods Pro 3,Earbuds,329,Spring,5
+1126,C0433,26,Female,AirPods Pro 3,Earbuds,329,Spring,4
+1127,C0075,26,Male,AirPods Max 2,Headphones,799,Fall,4.5
+1128,C0512,19,Female,AirPods 3,Earbuds,179,Fall,4.2
+1129,C0313,35,Male,AirPods Pro 3,Earbuds,329,Fall,4.3
+1130,C0844,39,Female,AirPods 4,Earbuds,249,Fall,4.6
+1131,C0363,55,Male,AirPods 4,Earbuds,249,Winter,4.8
+1132,C0387,27,Male,AirPods 3,Earbuds,179,Summer,4.3
+1133,C0296,42,Female,AirPods Pro 3,Earbuds,329,Fall,1.9
+1134,C0304,37,Male,AirPods Pro 3,Earbuds,329,Winter,1
+1135,C0207,30,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1136,C0609,36,Female,AirPods 4,Earbuds,249,Fall,4.5
+1137,C0770,42,Female,AirPods 4,Earbuds,249,Fall,4.5
+1138,C0394,48,Female,AirPods 3,Earbuds,179,Fall,4.5
+1139,C0128,44,Female,AirPods 4,Earbuds,249,Winter,4.3
+1140,C0257,52,Female,AirPods Pro 3,Earbuds,329,Summer,4.5
+1141,C0472,42,Male,AirPods Pro 3,Earbuds,329,Winter,4.7
+1142,C0005,40,Female,AirPods Pro 3,Earbuds,329,Winter,4.5
+1143,C0049,38,Male,AirPods 4,Earbuds,249,Fall,5
+1144,C0467,54,Female,AirPods Pro 3,Earbuds,329,Winter,4.8
+1145,C0444,64,Female,AirPods Pro 3,Earbuds,329,Spring,4.8
+1146,C0558,56,Male,AirPods Max 2,Headphones,799,Spring,4.4
+1147,C0720,61,Male,AirPods 3,Earbuds,179,Spring,4.9
+1148,C0870,61,Female,AirPods Pro 3,Earbuds,329,Fall,4.9
+1149,C0710,64,Non-binary,AirPods 3,Earbuds,179,Summer,4.9
+1150,C0201,54,Male,AirPods 4,Earbuds,249,Summer,4
+1151,C0662,59,Male,AirPods Pro 3,Earbuds,329,Winter,4.5
+1152,C0942,48,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1153,C0145,19,Non-binary,AirPods 4,Earbuds,249,Summer,4.5
+1154,C0265,16,Male,AirPods Pro 3,Earbuds,329,Winter,4.6
+1155,C0757,65,Female,AirPods Pro 3,Earbuds,329,Winter,4.3
+1156,C0007,52,Female,AirPods Pro 3,Earbuds,329,Winter,4.8
+1157,C0419,38,Male,AirPods 4,Earbuds,249,Spring,4.4
+1158,C0349,57,Male,AirPods 3,Earbuds,179,Fall,4.5
+1159,C0155,20,Male,AirPods 3,Earbuds,179,Winter,4.8
+1160,C0263,54,Male,AirPods 4,Earbuds,249,Fall,4.1
+1161,C0480,34,Female,AirPods 4,Earbuds,249,Fall,4.1
+1162,C0744,22,Male,AirPods Pro 3,Earbuds,329,Spring,4.4
+1163,C0113,52,Female,AirPods Pro 3,Earbuds,329,Winter,4.3
+1164,C0646,21,Male,AirPods 3,Earbuds,179,Spring,4.1
+1165,C0684,19,Male,AirPods 3,Earbuds,179,Spring,4.4
+1166,C0398,56,Female,AirPods Pro 3,Earbuds,329,Summer,4.3
+1167,C0853,44,Female,AirPods Pro 3,Earbuds,329,Fall,5
+1168,C0277,45,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1169,C0774,65,Non-binary,AirPods Pro 3,Earbuds,329,Spring,4.5
+1170,C0177,30,Female,AirPods 4,Earbuds,249,Spring,4
+1171,C0814,63,Female,AirPods Pro 3,Earbuds,329,Fall,4.8
+1172,C0401,40,Female,AirPods 4,Earbuds,249,Spring,4
+1173,C0421,41,Male,AirPods 4,Earbuds,249,Winter,4.9
+1174,C0328,24,Female,AirPods 4,Earbuds,249,Summer,4
+1175,C0842,47,Male,AirPods Pro 3,Earbuds,329,Spring,5
+1176,C0583,29,Female,AirPods 4,Earbuds,249,Fall,4.2
+1177,C0917,18,Female,AirPods Pro 3,Earbuds,329,Spring,4.1
+1178,C0214,29,Male,AirPods 4,Earbuds,249,Fall,4.4
+1179,C0420,34,Male,AirPods Max 2,Headphones,799,Fall,4.6
+1180,C0136,58,Male,AirPods 3,Earbuds,179,Winter,4.9
+1181,C0009,46,Female,AirPods 3,Earbuds,179,Winter,4.5
+1182,C0371,45,Female,AirPods Pro 3,Earbuds,329,Fall,4.2
+1183,C0013,54,Male,AirPods Pro 3,Earbuds,329,Summer,4.9
+1184,C0457,40,Female,AirPods 3,Earbuds,179,Fall,4.3
+1185,C0343,65,Female,AirPods Pro 3,Earbuds,329,Spring,4.9
+1186,C0917,43,Female,AirPods 4,Earbuds,249,Fall,3.2
+1187,C0013,26,Female,AirPods 3,Earbuds,179,Spring,4.4
+1188,C0095,21,Male,AirPods 3,Earbuds,179,Fall,4.1
+1189,C0657,34,Female,AirPods Pro 3,Earbuds,329,Winter,4.3
+1190,C0202,41,Female,AirPods 3,Earbuds,179,Spring,4.2
+1191,C0710,59,Male,AirPods 4,Earbuds,249,Fall,4.1
+1192,C0987,36,Female,AirPods Pro 3,Earbuds,329,Spring,4
+1193,C0664,50,Male,AirPods 3,Earbuds,179,Fall,4.6
+1194,C0380,20,Female,AirPods Pro 3,Earbuds,329,Fall,4.4
+1195,C0463,44,Male,AirPods 3,Earbuds,179,Fall,4.6
+1196,C0041,29,Female,AirPods 4,Earbuds,249,Winter,4.8
+1197,C0849,18,Male,AirPods Max 2,Headphones,799,Spring,4.7
+1198,C0330,19,Male,AirPods 3,Earbuds,179,Spring,4.7
+1199,C0665,56,Male,AirPods Pro 3,Earbuds,329,Spring,4.7
+1200,C0169,55,Female,AirPods 4,Earbuds,249,Summer,4.6
+1201,C0472,21,Male,AirPods 4,Earbuds,249,Winter,4.5
+1202,C0625,19,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1203,C0497,26,Male,AirPods Max 2,Headphones,799,Summer,4.8
+1204,C0443,65,Female,AirPods 4,Earbuds,249,Spring,5
+1205,C0148,25,Female,AirPods Pro 3,Earbuds,329,Spring,4.2
+1206,C0116,57,Female,AirPods Pro 3,Earbuds,329,Summer,4.2
+1207,C0388,58,Male,AirPods 4,Earbuds,249,Winter,4.4
+1208,C0083,28,Female,AirPods 3,Earbuds,179,Fall,4.6
+1209,C0685,24,Female,AirPods 4,Earbuds,249,Winter,4.1
+1210,C0431,41,Male,AirPods 4,Earbuds,249,Fall,4.6
+1211,C0238,37,Female,AirPods 4,Earbuds,249,Summer,4.5
+1212,C0827,23,Female,AirPods 4,Earbuds,249,Winter,4.9
+1213,C0376,27,Male,AirPods 3,Earbuds,179,Fall,4.9
+1214,C0611,43,Female,AirPods 4,Earbuds,249,Fall,4.8
+1215,C0083,57,Male,AirPods 4,Earbuds,249,Spring,4.6
+1216,C0079,57,Female,AirPods 4,Earbuds,249,Winter,4.7
+1217,C0232,27,Female,AirPods Pro 3,Earbuds,329,Spring,4
+1218,C0125,59,Male,AirPods Pro 3,Earbuds,329,Fall,4.5
+1219,C0111,22,Female,AirPods Pro 3,Earbuds,329,Spring,4.3
+1220,C0397,20,Male,AirPods 4,Earbuds,249,Fall,4.7
+1221,C0884,42,Female,AirPods 4,Earbuds,249,Winter,4.6
+1222,C0448,27,Female,AirPods 4,Earbuds,249,Winter,4.4
+1223,C0512,16,Male,AirPods 3,Earbuds,179,Spring,4.2
+1224,C0554,65,Female,AirPods 3,Earbuds,179,Fall,4.7
+1225,C0884,58,Male,AirPods Pro 3,Earbuds,329,Winter,4.7
+1226,C0622,34,Female,AirPods Pro 3,Earbuds,329,Winter,4
+1227,C0625,24,Female,AirPods 3,Earbuds,179,Winter,4.5
+1228,C0901,52,Male,AirPods 3,Earbuds,179,Fall,1.7
+1229,C0580,52,Male,AirPods 4,Earbuds,249,Winter,4
+1230,C0418,20,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1231,C0599,46,Male,AirPods 3,Earbuds,179,Winter,4.9
+1232,C0699,29,Female,AirPods Max 2,Headphones,799,Spring,4.9
+1233,C0160,42,Male,AirPods 3,Earbuds,179,Summer,4.2
+1234,C0002,45,Male,AirPods Pro 3,Earbuds,329,Spring,3.3
+1235,C0418,38,Female,AirPods 4,Earbuds,249,Fall,4.9
+1236,C0835,19,Male,AirPods 4,Earbuds,249,Winter,4.4
+1237,C0143,32,Female,AirPods Pro 3,Earbuds,329,Fall,4.5
+1238,C0190,34,Female,AirPods Pro 3,Earbuds,329,Fall,4
+1239,C0124,41,Female,AirPods 4,Earbuds,249,Winter,4.1
+1240,C0574,35,Male,AirPods Max 2,Headphones,799,Spring,4.5
+1241,C0780,33,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1242,C0373,23,Male,AirPods 4,Earbuds,249,Winter,4.6
+1243,C0235,16,Female,AirPods Pro 3,Earbuds,329,Spring,4.6
+1244,C0791,18,Male,AirPods 3,Earbuds,179,Summer,4.6
+1245,C0846,18,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1246,C0498,47,Male,AirPods Pro 3,Earbuds,329,Spring,4.7
+1247,C0226,64,Female,AirPods 3,Earbuds,179,Spring,4.6
+1248,C0164,52,Male,AirPods 3,Earbuds,179,Fall,2
+1249,C0194,55,Other,AirPods 4,Earbuds,249,Fall,4.6
+1250,C0813,27,Female,AirPods 4,Earbuds,249,Winter,2.3
+1251,C0448,38,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1252,C0126,46,Male,AirPods 4,Earbuds,249,Spring,4
+1253,C0941,64,Male,AirPods 3,Earbuds,179,Spring,4.8
+1254,C0162,41,Male,AirPods 3,Earbuds,179,Summer,4.2
+1255,C0862,24,Male,AirPods Pro 3,Earbuds,329,Summer,4.6
+1256,C0392,37,Female,AirPods Max 2,Headphones,799,Spring,4.1
+1257,C0568,40,Female,AirPods Max 2,Headphones,799,Winter,4.5
+1258,C0475,24,Female,AirPods 4,Earbuds,249,Spring,4.4
+1259,C0056,43,Female,AirPods 4,Earbuds,249,Winter,4.7
+1260,C0228,47,Female,AirPods Pro 3,Earbuds,329,Summer,4.8
+1261,C0700,56,Male,AirPods 3,Earbuds,179,Fall,4.8
+1262,C0723,46,Female,AirPods Max 2,Headphones,799,Winter,4
+1263,C0261,57,Male,AirPods 4,Earbuds,249,Summer,4
+1264,C0788,50,Female,AirPods Pro 3,Earbuds,329,Spring,4.4
+1265,C0233,18,Female,AirPods 4,Earbuds,249,Fall,3.8
+1266,C0092,53,Male,AirPods Max 2,Headphones,799,Spring,4.8
+1267,C0111,56,Male,AirPods 3,Earbuds,179,Fall,4.9
+1268,C0446,45,Female,AirPods 4,Earbuds,249,Spring,4.3
+1269,C0009,35,Male,AirPods 3,Earbuds,179,Fall,4.5
+1270,C0598,33,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1271,C0807,39,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1272,C0743,62,Male,AirPods Max 2,Headphones,799,Summer,4.5
+1273,C0988,36,Male,AirPods Pro 3,Earbuds,329,Winter,5
+1274,C0300,41,Female,AirPods Max 2,Headphones,799,Spring,4.3
+1275,C0296,29,Male,AirPods 3,Earbuds,179,Winter,4.3
+1276,C0971,37,Female,AirPods 4,Earbuds,249,Winter,4.5
+1277,C0074,45,Female,AirPods 3,Earbuds,179,Winter,4.7
+1278,C0424,26,Female,AirPods 4,Earbuds,249,Winter,4.5
+1279,C0903,49,Male,AirPods 4,Earbuds,249,Spring,2.6
+1280,C0128,26,Female,AirPods Max 2,Headphones,799,Winter,4.1
+1281,C0758,20,Female,AirPods Max 2,Headphones,799,Winter,4.5
+1282,C0209,56,Female,AirPods 4,Earbuds,249,Spring,4.8
+1283,C0756,28,Female,AirPods 4,Earbuds,249,Summer,4.7
+1284,C0096,61,Male,AirPods Max 2,Headphones,799,Summer,4.1
+1285,C0643,21,Male,AirPods Pro 3,Earbuds,329,Summer,4.9
+1286,C0403,25,Female,AirPods 3,Earbuds,179,Summer,4.6
+1287,C0843,61,Female,AirPods 3,Earbuds,179,Winter,4.3
+1288,C0430,59,Female,AirPods Pro 3,Earbuds,329,Summer,4.5
+1289,C0545,47,Male,AirPods 4,Earbuds,249,Spring,4.5
+1290,C0682,36,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1291,C0639,24,Male,AirPods 4,Earbuds,249,Fall,4.9
+1292,C0371,23,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1293,C0842,56,Male,AirPods Max 2,Headphones,799,Spring,4
+1294,C0245,18,Male,AirPods 4,Earbuds,249,Winter,4.9
+1295,C0732,64,Female,AirPods 3,Earbuds,179,Spring,5
+1296,C0430,23,Female,AirPods 4,Earbuds,249,Winter,4.3
+1297,C0977,16,Female,AirPods Max 2,Headphones,799,Spring,4
+1298,C0352,53,Male,AirPods 3,Earbuds,179,Summer,4.1
+1299,C0202,25,Female,AirPods 4,Earbuds,249,Summer,4.3
+1300,C0862,47,Male,AirPods Pro 3,Earbuds,329,Summer,5
+1301,C0599,32,Female,AirPods Pro 3,Earbuds,329,Summer,4.5
+1302,C0249,39,Female,AirPods Max 2,Headphones,799,Summer,4.3
+1303,C0607,41,Male,AirPods 3,Earbuds,179,Spring,4.1
+1304,C0572,34,Female,AirPods 4,Earbuds,249,Spring,4.6
+1305,C0312,32,Male,AirPods Max 2,Headphones,799,Fall,4.5
+1306,C0328,42,Female,AirPods Max 2,Headphones,799,Fall,4.7
+1307,C0168,30,Female,AirPods 4,Earbuds,249,Fall,4.5
+1308,C0644,56,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1309,C0038,27,Female,AirPods 4,Earbuds,249,Fall,4.7
+1310,C0887,43,Male,AirPods 4,Earbuds,249,Winter,4.5
+1311,C0880,60,Male,AirPods Pro 3,Earbuds,329,Fall,4.1
+1312,C0147,28,Male,AirPods 4,Earbuds,249,Winter,4.4
+1313,C0916,18,Male,AirPods 4,Earbuds,249,Spring,4.6
+1314,C0593,60,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1315,C0444,29,Male,AirPods Max 2,Headphones,799,Fall,4.8
+1316,C0425,17,Female,AirPods 3,Earbuds,179,Summer,4.5
+1317,C0858,32,Male,AirPods 4,Earbuds,249,Spring,4
+1318,C0355,52,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1319,C0613,18,Non-binary,AirPods 4,Earbuds,249,Summer,5
+1320,C0576,56,Female,AirPods 4,Earbuds,249,Winter,4.3
+1321,C0341,47,Male,AirPods 4,Earbuds,249,Winter,4.6
+1322,C0769,53,Female,AirPods 4,Earbuds,249,Summer,4.4
+1323,C0398,59,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1324,C0648,25,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1325,C0270,41,Female,AirPods 3,Earbuds,179,Winter,4.4
+1326,C0066,58,Female,AirPods 4,Earbuds,249,Winter,4.1
+1327,C0197,57,Female,AirPods 4,Earbuds,249,Winter,4.9
+1328,C0832,65,Male,AirPods 4,Earbuds,249,Fall,4.6
+1329,C0439,41,Male,AirPods 4,Earbuds,249,Summer,4.5
+1330,C0430,20,Male,AirPods 4,Earbuds,249,Summer,4.5
+1331,C0552,21,Male,AirPods 3,Earbuds,179,Spring,4.2
+1332,C0803,29,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1333,C0762,49,Female,AirPods 3,Earbuds,179,Fall,4.7
+1334,C0557,51,Male,AirPods 3,Earbuds,179,Winter,4.1
+1335,C0320,41,Female,AirPods 4,Earbuds,249,Summer,4.7
+1336,C0839,19,Male,AirPods Max 2,Headphones,799,Winter,4.5
+1337,C0674,38,Male,AirPods Pro 3,Earbuds,329,Winter,5
+1338,C0229,25,Male,AirPods 4,Earbuds,249,Fall,4.6
+1339,C0118,57,Male,AirPods 4,Earbuds,249,Summer,4.6
+1340,C0282,25,Female,AirPods Pro 3,Earbuds,329,Spring,4.6
+1341,C0365,60,Male,AirPods 4,Earbuds,249,Winter,4
+1342,C0704,52,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1343,C0162,31,Male,AirPods Pro 3,Earbuds,329,Summer,4.4
+1344,C0288,59,Female,AirPods 4,Earbuds,249,Fall,4.7
+1345,C0249,27,Female,AirPods Max 2,Headphones,799,Spring,4.9
+1346,C0808,16,Female,AirPods Pro 3,Earbuds,329,Winter,4.2
+1347,C0623,23,Male,AirPods 3,Earbuds,179,Winter,4.6
+1348,C0070,27,Male,AirPods Pro 3,Earbuds,329,Summer,2.4
+1349,C0015,20,Female,AirPods 4,Earbuds,249,Summer,4.8
+1350,C0378,33,Female,AirPods 4,Earbuds,249,Winter,4
+1351,C0775,50,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1352,C0633,21,Male,AirPods Pro 3,Earbuds,329,Spring,4.8
+1353,C0924,46,Female,AirPods Max 2,Headphones,799,Spring,4.4
+1354,C0252,35,Male,AirPods Pro 3,Earbuds,329,Fall,4.8
+1355,C0152,59,Female,AirPods Pro 3,Earbuds,329,Winter,4.6
+1356,C0167,31,Male,AirPods 4,Earbuds,249,Fall,4.6
+1357,C0509,54,Female,AirPods Max 2,Headphones,799,Fall,5
+1358,C0314,25,Male,AirPods 4,Earbuds,249,Winter,4.2
+1359,C0650,50,Male,AirPods 4,Earbuds,249,Winter,4
+1360,C0530,34,Female,AirPods 3,Earbuds,179,Winter,4.7
+1361,C0061,25,Female,AirPods Pro 3,Earbuds,329,Spring,4.8
+1362,C0752,32,Female,AirPods 4,Earbuds,249,Spring,4.3
+1363,C0751,44,Male,AirPods 4,Earbuds,249,Fall,5
+1364,C0197,59,Female,AirPods 4,Earbuds,249,Winter,4.1
+1365,C0833,28,Male,AirPods 4,Earbuds,249,Spring,4.4
+1366,C0730,43,Female,AirPods 3,Earbuds,179,Spring,4.1
+1367,C0638,22,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1368,C0039,54,Male,AirPods 4,Earbuds,249,Winter,4
+1369,C0628,45,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1370,C0879,57,Male,AirPods 4,Earbuds,249,Summer,4.8
+1371,C0147,56,Male,AirPods 4,Earbuds,249,Summer,2.9
+1372,C0670,38,Male,AirPods 3,Earbuds,179,Summer,4.8
+1373,C0547,31,Male,AirPods 3,Earbuds,179,Fall,4.8
+1374,C0530,21,Male,AirPods Max 2,Headphones,799,Summer,5
+1375,C0134,21,Male,AirPods Pro 3,Earbuds,329,Winter,4.8
+1376,C0995,62,Female,AirPods 4,Earbuds,249,Summer,4.9
+1377,C0494,65,Female,AirPods 4,Earbuds,249,Winter,4
+1378,C0010,61,Male,AirPods 4,Earbuds,249,Spring,4.2
+1379,C0864,65,Male,AirPods 4,Earbuds,249,Fall,4.7
+1380,C0746,39,Male,AirPods Pro 3,Earbuds,329,Spring,4.2
+1381,C0785,29,Female,AirPods 4,Earbuds,249,Winter,4.1
+1382,C0388,26,Female,AirPods 4,Earbuds,249,Fall,4.5
+1383,C0263,48,Female,AirPods Pro 3,Earbuds,329,Fall,4.8
+1384,C0194,50,Female,AirPods Pro 3,Earbuds,329,Winter,4
+1385,C0516,53,Male,AirPods 3,Earbuds,179,Fall,4.8
+1386,C0458,30,Male,AirPods Pro 3,Earbuds,329,Winter,4.5
+1387,C0431,42,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1388,C0254,51,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1389,C0472,16,Female,AirPods Max 2,Headphones,799,Fall,4
+1390,C0335,57,Non-binary,AirPods 4,Earbuds,249,Summer,4.9
+1391,C0960,57,Male,AirPods 4,Earbuds,249,Summer,4.3
+1392,C0473,24,Female,AirPods 4,Earbuds,249,Fall,4.5
+1393,C0266,25,Non-binary,AirPods 3,Earbuds,179,Spring,4
+1394,C0079,25,Male,AirPods 3,Earbuds,179,Fall,4.6
+1395,C0004,50,Male,AirPods 3,Earbuds,179,Winter,4.5
+1396,C0544,29,Female,AirPods Pro 3,Earbuds,329,Fall,4.3
+1397,C0622,16,Female,AirPods 4,Earbuds,249,Winter,4.6
+1398,C0485,28,Male,AirPods 4,Earbuds,249,Fall,4.9
+1399,C0093,48,Female,AirPods Max 2,Headphones,799,Spring,4.7
+1400,C0616,23,Male,AirPods Pro 3,Earbuds,329,Summer,4
+1401,C0798,65,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1402,C0289,49,Male,AirPods 4,Earbuds,249,Summer,4.3
+1403,C0013,25,Male,AirPods Pro 3,Earbuds,329,Summer,4.4
+1404,C0318,60,Male,AirPods Pro 3,Earbuds,329,Winter,5
+1405,C0156,22,Male,AirPods Max 2,Headphones,799,Fall,4
+1406,C0363,44,Male,AirPods 3,Earbuds,179,Spring,4.5
+1407,C0211,20,Male,AirPods 3,Earbuds,179,Spring,4.2
+1408,C0155,52,Female,AirPods 4,Earbuds,249,Fall,4.4
+1409,C0875,17,Non-binary,AirPods Pro 3,Earbuds,329,Winter,4
+1410,C0326,29,Female,AirPods Pro 3,Earbuds,329,Spring,4.7
+1411,C0290,32,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1412,C0855,63,Female,AirPods 4,Earbuds,249,Winter,4.1
+1413,C0153,36,Female,AirPods Pro 3,Earbuds,329,Spring,3.2
+1414,C0730,57,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1415,C0752,54,Female,AirPods 3,Earbuds,179,Winter,4.6
+1416,C0783,61,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1417,C0847,38,Non-binary,AirPods 4,Earbuds,249,Winter,4
+1418,C0080,51,Female,AirPods Pro 3,Earbuds,329,Spring,2.7
+1419,C0132,41,Female,AirPods Max 2,Headphones,799,Summer,4.9
+1420,C0659,54,Male,AirPods 3,Earbuds,179,Spring,5
+1421,C0686,62,Male,AirPods Pro 3,Earbuds,329,Fall,4.4
+1422,C0226,20,Female,AirPods Pro 3,Earbuds,329,Spring,4.8
+1423,C0041,16,Male,AirPods 4,Earbuds,249,Spring,4.6
+1424,C0527,37,Male,AirPods 4,Earbuds,249,Summer,4.4
+1425,C0583,34,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1426,C0668,25,Female,AirPods 4,Earbuds,249,Fall,4.9
+1427,C0060,31,Female,AirPods 4,Earbuds,249,Winter,4.9
+1428,C0950,53,Male,AirPods 4,Earbuds,249,Summer,4.6
+1429,C0805,25,Male,AirPods Pro 3,Earbuds,329,Winter,4.7
+1430,C0276,41,Female,AirPods 4,Earbuds,249,Winter,4.3
+1431,C0175,34,Male,AirPods 4,Earbuds,249,Fall,4.3
+1432,C0196,20,Female,AirPods Pro 3,Earbuds,329,Spring,4.1
+1433,C0582,65,Non-binary,AirPods Pro 3,Earbuds,329,Winter,4.7
+1434,C0482,65,Female,AirPods Pro 3,Earbuds,329,Summer,2.4
+1435,C0832,59,Male,AirPods Pro 3,Earbuds,329,Winter,4.3
+1436,C0432,39,Male,AirPods 3,Earbuds,179,Summer,4.2
+1437,C0660,40,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1438,C0203,31,Female,AirPods 3,Earbuds,179,Spring,4.5
+1439,C0683,25,Female,AirPods 4,Earbuds,249,Spring,4.8
+1440,C0751,38,Female,AirPods 4,Earbuds,249,Fall,5
+1441,C0703,53,Female,AirPods 4,Earbuds,249,Winter,4.3
+1442,C0217,61,Female,AirPods 4,Earbuds,249,Winter,4.1
+1443,C0260,17,Male,AirPods Pro 3,Earbuds,329,Winter,4.9
+1444,C0326,60,Female,AirPods 3,Earbuds,179,Fall,4.4
+1445,C0078,46,Male,AirPods 3,Earbuds,179,Summer,4.2
+1446,C0550,60,Non-binary,AirPods Pro 3,Earbuds,329,Spring,4.9
+1447,C0384,57,Male,AirPods Pro 3,Earbuds,329,Spring,4.3
+1448,C0955,56,Male,AirPods Max 2,Headphones,799,Spring,4.8
+1449,C0148,36,Female,AirPods 4,Earbuds,249,Winter,4.9
+1450,C0663,26,Male,AirPods 3,Earbuds,179,Fall,4.5
+1451,C0657,43,Female,AirPods 4,Earbuds,249,Summer,2.7
+1452,C0489,64,Female,AirPods Pro 3,Earbuds,329,Winter,5
+1453,C0877,28,Male,AirPods 4,Earbuds,249,Spring,4
+1454,C0528,46,Female,AirPods 3,Earbuds,179,Spring,4.7
+1455,C0528,36,Male,AirPods Pro 3,Earbuds,329,Spring,5
+1456,C0966,54,Female,AirPods Pro 3,Earbuds,329,Winter,4.7
+1457,C0296,27,Female,AirPods 3,Earbuds,179,Winter,4.2
+1458,C0327,47,Female,AirPods 3,Earbuds,179,Fall,4.4
+1459,C0200,54,Male,AirPods 3,Earbuds,179,Fall,4.1
+1460,C0407,33,Female,AirPods Max 2,Headphones,799,Spring,2.8
+1461,C0807,25,Female,AirPods 4,Earbuds,249,Summer,4.4
+1462,C0443,20,Male,AirPods 3,Earbuds,179,Winter,2.9
+1463,C0999,18,Male,AirPods Pro 3,Earbuds,329,Spring,4.8
+1464,C0052,55,Male,AirPods 3,Earbuds,179,Spring,4.2
+1465,C0292,53,Female,AirPods 4,Earbuds,249,Summer,4.1
+1466,C0185,53,Male,AirPods Pro 3,Earbuds,329,Summer,2.4
+1467,C0302,19,Male,AirPods 3,Earbuds,179,Fall,4.3
+1468,C0729,33,Other,AirPods Pro 3,Earbuds,329,Spring,1.7
+1469,C0881,65,Male,AirPods 3,Earbuds,179,Summer,4.3
+1470,C0988,64,Male,AirPods Pro 3,Earbuds,329,Summer,4.2
+1471,C0633,16,Female,AirPods 3,Earbuds,179,Winter,4.9
+1472,C0415,40,Female,AirPods 4,Earbuds,249,Fall,4.8
+1473,C0403,22,Female,AirPods Max 2,Headphones,799,Winter,4.1
+1474,C0407,35,Male,AirPods Max 2,Headphones,799,Summer,4
+1475,C0429,27,Female,AirPods 3,Earbuds,179,Fall,4.7
+1476,C0257,22,Male,AirPods Max 2,Headphones,799,Fall,4.8
+1477,C0737,16,Female,AirPods Pro 3,Earbuds,329,Winter,4.3
+1478,C0301,52,Female,AirPods Pro 3,Earbuds,329,Fall,4.2
+1479,C0532,56,Female,AirPods Pro 3,Earbuds,329,Winter,4.1
+1480,C0772,27,Female,AirPods 4,Earbuds,249,Winter,4.1
+1481,C0957,58,Male,AirPods 3,Earbuds,179,Spring,4.5
+1482,C0580,18,Female,AirPods 4,Earbuds,249,Winter,4.4
+1483,C0651,17,Female,AirPods 3,Earbuds,179,Winter,4.6
+1484,C0085,27,Female,AirPods Max 2,Headphones,799,Winter,4.2
+1485,C0719,23,Female,AirPods Pro 3,Earbuds,329,Spring,4.9
+1486,C0789,41,Male,AirPods 4,Earbuds,249,Fall,4.3
+1487,C0260,60,Female,AirPods Max 2,Headphones,799,Spring,4.1
+1488,C0110,65,Female,AirPods 4,Earbuds,249,Spring,5
+1489,C0564,39,Female,AirPods 4,Earbuds,249,Fall,4.3
+1490,C0017,63,Male,AirPods Pro 3,Earbuds,329,Spring,5
+1491,C0965,50,Female,AirPods Pro 3,Earbuds,329,Spring,4.7
+1492,C0161,62,Male,AirPods 3,Earbuds,179,Fall,4.1
+1493,C0558,36,Male,AirPods 4,Earbuds,249,Winter,4.3
+1494,C0397,37,Male,AirPods 4,Earbuds,249,Summer,4.2
+1495,C0447,40,Male,AirPods 3,Earbuds,179,Winter,4.7
+1496,C0453,47,Female,AirPods 4,Earbuds,249,Spring,4.5
+1497,C0707,16,Female,AirPods Pro 3,Earbuds,329,Fall,4.8
+1498,C0836,51,Male,AirPods Max 2,Headphones,799,Summer,4.1
+1499,C0161,44,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1500,C0755,58,Male,AirPods Pro 3,Earbuds,329,Fall,4.3
+1501,C0108,46,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1502,C0392,38,Male,AirPods 4,Earbuds,249,Spring,4.3
+1503,C0318,51,Male,AirPods 4,Earbuds,249,Summer,4.3
+1504,C0029,29,Male,AirPods 3,Earbuds,179,Summer,4
+1505,C0615,27,Female,AirPods 3,Earbuds,179,Summer,4.5
+1506,C0591,46,Male,AirPods 4,Earbuds,249,Spring,4.6
+1507,C0391,41,Male,AirPods 3,Earbuds,179,Fall,4.5
+1508,C0282,30,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1509,C0798,56,Male,AirPods Pro 3,Earbuds,329,Fall,4.8
+1510,C0806,43,Female,AirPods 3,Earbuds,179,Summer,4.6
+1511,C0027,50,Female,AirPods 3,Earbuds,179,Fall,4.3
+1512,C0744,33,Female,AirPods Pro 3,Earbuds,329,Spring,4.4
+1513,C0932,62,Male,AirPods Max 2,Headphones,799,Summer,4.8
+1514,C0255,57,Female,AirPods 4,Earbuds,249,Summer,3.5
+1515,C0239,61,Female,AirPods 4,Earbuds,249,Winter,4.4
+1516,C0257,49,Male,AirPods Max 2,Headphones,799,Fall,3.5
+1517,C0435,28,Male,AirPods 3,Earbuds,179,Winter,4.3
+1518,C0457,55,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1519,C0421,61,Male,AirPods Pro 3,Earbuds,329,Spring,4.7
+1520,C0079,41,Female,AirPods 3,Earbuds,179,Spring,5
+1521,C0167,62,Female,AirPods 4,Earbuds,249,Summer,4.6
+1522,C0828,33,Female,AirPods 4,Earbuds,249,Spring,4.6
+1523,C0863,16,Female,AirPods Pro 3,Earbuds,329,Summer,5
+1524,C0101,27,Male,AirPods Max 2,Headphones,799,Spring,4.2
+1525,C0040,22,Female,AirPods 4,Earbuds,249,Spring,4.8
+1526,C0212,37,Male,AirPods 4,Earbuds,249,Winter,4.1
+1527,C0668,28,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1528,C0818,28,Female,AirPods Pro 3,Earbuds,329,Winter,4.9
+1529,C0547,58,Non-binary,AirPods 4,Earbuds,249,Winter,4.5
+1530,C0381,16,Male,AirPods Pro 3,Earbuds,329,Fall,4.2
+1531,C0748,39,Male,AirPods 4,Earbuds,249,Fall,4.1
+1532,C0471,54,Female,AirPods 4,Earbuds,249,Fall,4.1
+1533,C0985,44,Female,AirPods Max 2,Headphones,799,Summer,4.7
+1534,C0564,42,Female,AirPods 4,Earbuds,249,Summer,4.9
+1535,C0910,52,Male,AirPods 4,Earbuds,249,Winter,4.6
+1536,C0009,60,Female,AirPods Pro 3,Earbuds,329,Spring,4.4
+1537,C0001,24,Male,AirPods 3,Earbuds,179,Fall,4.9
+1538,C0539,54,Female,AirPods 3,Earbuds,179,Winter,4.3
+1539,C0841,37,Female,AirPods 4,Earbuds,249,Winter,4.8
+1540,C0612,33,Male,AirPods Pro 3,Earbuds,329,Fall,4.3
+1541,C0198,21,Non-binary,AirPods Pro 3,Earbuds,329,Summer,4.8
+1542,C0708,64,Female,AirPods 4,Earbuds,249,Fall,4.4
+1543,C0207,58,Female,AirPods Max 2,Headphones,799,Summer,4.3
+1544,C0270,24,Non-binary,AirPods 4,Earbuds,249,Winter,4.9
+1545,C0953,51,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1546,C0145,25,Female,AirPods 3,Earbuds,179,Summer,4.7
+1547,C0118,18,Female,AirPods Pro 3,Earbuds,329,Winter,4.7
+1548,C0116,30,Female,AirPods Max 2,Headphones,799,Summer,4
+1549,C0418,51,Male,AirPods 4,Earbuds,249,Winter,4.3
+1550,C0883,60,Female,AirPods 4,Earbuds,249,Summer,4.5
+1551,C0330,46,Male,AirPods Pro 3,Earbuds,329,Spring,4.8
+1552,C0154,32,Female,AirPods Pro 3,Earbuds,329,Winter,4.2
+1553,C0001,61,Female,AirPods 3,Earbuds,179,Fall,4.8
+1554,C0617,51,Male,AirPods 4,Earbuds,249,Spring,4.6
+1555,C0918,40,Female,AirPods 4,Earbuds,249,Fall,4.7
+1556,C0470,65,Male,AirPods 4,Earbuds,249,Summer,4.8
+1557,C0586,49,Female,AirPods Pro 3,Earbuds,329,Summer,4.2
+1558,C0404,39,Female,AirPods Max 2,Headphones,799,Summer,4.4
+1559,C0367,39,Female,AirPods 4,Earbuds,249,Winter,4.1
+1560,C0738,60,Male,AirPods 4,Earbuds,249,Winter,4.3
+1561,C0874,50,Male,AirPods Pro 3,Earbuds,329,Spring,4.4
+1562,C0927,30,Female,AirPods 4,Earbuds,249,Fall,4.9
+1563,C0234,62,Female,AirPods 4,Earbuds,249,Summer,4.3
+1564,C0669,55,Female,AirPods Max 2,Headphones,799,Summer,4.2
+1565,C0467,62,Female,AirPods Pro 3,Earbuds,329,Summer,4.5
+1566,C0911,39,Non-binary,AirPods 4,Earbuds,249,Spring,4.6
+1567,C0774,60,Male,AirPods Pro 3,Earbuds,329,Spring,4.8
+1568,C0026,63,Female,AirPods 3,Earbuds,179,Summer,4.5
+1569,C0119,30,Female,AirPods Max 2,Headphones,799,Winter,4.6
+1570,C0563,28,Male,AirPods 4,Earbuds,249,Fall,4.7
+1571,C0071,38,Male,AirPods 4,Earbuds,249,Spring,4.9
+1572,C0891,55,Male,AirPods Pro 3,Earbuds,329,Winter,2.6
+1573,C0216,36,Male,AirPods Pro 3,Earbuds,329,Fall,4.2
+1574,C0247,20,Female,AirPods Pro 3,Earbuds,329,Summer,1.9
+1575,C0371,53,Female,AirPods 4,Earbuds,249,Spring,4.8
+1576,C0139,31,Male,AirPods 4,Earbuds,249,Fall,4.6
+1577,C0043,16,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1578,C0136,36,Female,AirPods Pro 3,Earbuds,329,Fall,4.9
+1579,C0236,24,Male,AirPods Pro 3,Earbuds,329,Fall,3.8
+1580,C0397,23,Female,AirPods Pro 3,Earbuds,329,Summer,4.9
+1581,C0172,62,Male,AirPods Pro 3,Earbuds,329,Spring,4.4
+1582,C0323,26,Male,AirPods Pro 3,Earbuds,329,Fall,4.4
+1583,C0881,28,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1584,C0765,44,Male,AirPods Pro 3,Earbuds,329,Winter,4.3
+1585,C0393,55,Male,AirPods 3,Earbuds,179,Fall,4.4
+1586,C0049,39,Female,AirPods Pro 3,Earbuds,329,Spring,2.5
+1587,C0739,23,Female,AirPods Max 2,Headphones,799,Fall,4.9
+1588,C0733,24,Female,AirPods 4,Earbuds,249,Spring,4.6
+1589,C0656,21,Male,AirPods 4,Earbuds,249,Summer,4.6
+1590,C0836,20,Female,AirPods 4,Earbuds,249,Winter,4.3
+1591,C0226,31,Female,AirPods 3,Earbuds,179,Fall,4.7
+1592,C0425,57,Female,AirPods 3,Earbuds,179,Spring,4.9
+1593,C0381,38,Male,AirPods 4,Earbuds,249,Summer,4.5
+1594,C0337,39,Female,AirPods Max 2,Headphones,799,Winter,5
+1595,C0505,54,Female,AirPods Pro 3,Earbuds,329,Fall,4.5
+1596,C0980,55,Non-binary,AirPods Max 2,Headphones,799,Fall,4.9
+1597,C0097,19,Female,AirPods 4,Earbuds,249,Fall,4.3
+1598,C0990,52,Male,AirPods 4,Earbuds,249,Spring,4.1
+1599,C0821,58,Male,AirPods Pro 3,Earbuds,329,Fall,4.4
+1600,C0904,63,Male,AirPods 3,Earbuds,179,Summer,4.5
+1601,C0624,63,Male,AirPods 3,Earbuds,179,Spring,4.7
+1602,C0830,49,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1603,C0976,41,Female,AirPods Pro 3,Earbuds,329,Winter,5
+1604,C0107,58,Male,AirPods 4,Earbuds,249,Spring,4.1
+1605,C0765,20,Female,AirPods 3,Earbuds,179,Fall,4.1
+1606,C0778,31,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1607,C0455,44,Male,AirPods 3,Earbuds,179,Winter,4.5
+1608,C0202,44,Male,AirPods Pro 3,Earbuds,329,Fall,4.7
+1609,C0986,26,Female,AirPods 4,Earbuds,249,Fall,4.8
+1610,C0783,43,Male,AirPods Pro 3,Earbuds,329,Winter,4.8
+1611,C0094,31,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1612,C0660,41,Female,AirPods Max 2,Headphones,799,Winter,4.4
+1613,C0422,58,Female,AirPods 3,Earbuds,179,Spring,4.7
+1614,C0598,34,Male,AirPods 4,Earbuds,249,Winter,4.1
+1615,C0030,23,Female,AirPods 3,Earbuds,179,Winter,4.9
+1616,C0094,21,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1617,C0747,25,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1618,C0600,38,Non-binary,AirPods Pro 3,Earbuds,329,Winter,4.2
+1619,C0899,28,Female,AirPods Pro 3,Earbuds,329,Winter,4.1
+1620,C0094,52,Female,AirPods Pro 3,Earbuds,329,Fall,4.5
+1621,C0348,48,Male,AirPods 4,Earbuds,249,Spring,4.3
+1622,C0006,29,Male,AirPods 4,Earbuds,249,Winter,4.3
+1623,C0316,49,Female,AirPods 3,Earbuds,179,Spring,4
+1624,C0040,37,Female,AirPods 4,Earbuds,249,Summer,4.5
+1625,C0394,42,Male,AirPods Pro 3,Earbuds,329,Summer,4
+1626,C0999,48,Male,AirPods 4,Earbuds,249,Fall,4.4
+1627,C0788,37,Male,AirPods 4,Earbuds,249,Spring,4.2
+1628,C0640,29,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1629,C0973,58,Female,AirPods 4,Earbuds,249,Spring,4.8
+1630,C0358,44,Female,AirPods 3,Earbuds,179,Winter,4.9
+1631,C0563,18,Female,AirPods 4,Earbuds,249,Spring,4.9
+1632,C0919,39,Female,AirPods 3,Earbuds,179,Spring,4.5
+1633,C0905,60,Female,AirPods 4,Earbuds,249,Summer,4.9
+1634,C0937,34,Female,AirPods Pro 3,Earbuds,329,Fall,4.7
+1635,C0103,23,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1636,C0128,46,Male,AirPods 4,Earbuds,249,Winter,4.7
+1637,C0147,17,Female,AirPods 3,Earbuds,179,Spring,4.8
+1638,C0906,28,Male,AirPods 4,Earbuds,249,Fall,4.1
+1639,C0762,30,Female,AirPods 4,Earbuds,249,Spring,4.2
+1640,C0116,45,Male,AirPods Max 2,Headphones,799,Winter,4.2
+1641,C0078,24,Male,AirPods 4,Earbuds,249,Fall,4.6
+1642,C0383,19,Female,AirPods Pro 3,Earbuds,329,Fall,4.5
+1643,C0332,55,Female,AirPods 4,Earbuds,249,Summer,4.1
+1644,C0303,40,Female,AirPods Pro 3,Earbuds,329,Spring,4.3
+1645,C0222,46,Male,AirPods Pro 3,Earbuds,329,Summer,4.7
+1646,C0949,52,Male,AirPods 3,Earbuds,179,Winter,4.4
+1647,C0801,27,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1648,C0636,21,Male,AirPods Pro 3,Earbuds,329,Summer,4
+1649,C0515,60,Female,AirPods 4,Earbuds,249,Summer,4.8
+1650,C0621,23,Female,AirPods 3,Earbuds,179,Winter,4.6
+1651,C0574,31,Male,AirPods 3,Earbuds,179,Winter,4.7
+1652,C0351,57,Male,AirPods 4,Earbuds,249,Spring,4.9
+1653,C0929,57,Male,AirPods Max 2,Headphones,799,Summer,4.8
+1654,C0925,36,Female,AirPods 3,Earbuds,179,Fall,4.6
+1655,C0696,44,Female,AirPods 3,Earbuds,179,Winter,4.5
+1656,C0531,63,Male,AirPods Pro 3,Earbuds,329,Summer,4.7
+1657,C0725,33,Non-binary,AirPods Max 2,Headphones,799,Summer,4.7
+1658,C0298,49,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1659,C0182,58,Male,AirPods 3,Earbuds,179,Winter,4.8
+1660,C0783,42,Male,AirPods Max 2,Headphones,799,Spring,4.6
+1661,C0122,49,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1662,C0207,37,Male,AirPods 4,Earbuds,249,Fall,4.2
+1663,C0218,38,Female,AirPods Pro 3,Earbuds,329,Summer,4.2
+1664,C0491,46,Female,AirPods 3,Earbuds,179,Summer,4.7
+1665,C0145,26,Male,AirPods 4,Earbuds,249,Summer,4.4
+1666,C0157,33,Female,AirPods 3,Earbuds,179,Winter,4.9
+1667,C0148,46,Male,AirPods 3,Earbuds,179,Winter,4.1
+1668,C0682,57,Female,AirPods 4,Earbuds,249,Summer,4.7
+1669,C0811,62,Female,AirPods 3,Earbuds,179,Fall,4.1
+1670,C0945,26,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1671,C0994,30,Female,AirPods 4,Earbuds,249,Spring,4
+1672,C0073,64,Female,AirPods Pro 3,Earbuds,329,Spring,4.1
+1673,C0643,28,Female,AirPods 3,Earbuds,179,Summer,4.1
+1674,C0589,54,Male,AirPods 4,Earbuds,249,Fall,2.7
+1675,C0598,58,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1676,C0677,61,Female,AirPods Max 2,Headphones,799,Winter,2.1
+1677,C0213,24,Female,AirPods 3,Earbuds,179,Fall,4.4
+1678,C0542,44,Male,AirPods 3,Earbuds,179,Summer,4.2
+1679,C0453,62,Female,AirPods 4,Earbuds,249,Spring,4.6
+1680,C0852,22,Female,AirPods 3,Earbuds,179,Spring,4.9
+1681,C0308,41,Female,AirPods Pro 3,Earbuds,329,Summer,4.5
+1682,C0046,40,Male,AirPods 4,Earbuds,249,Winter,4.5
+1683,C0956,19,Male,AirPods 4,Earbuds,249,Spring,4.9
+1684,C0949,22,Male,AirPods 4,Earbuds,249,Summer,4.5
+1685,C0145,51,Male,AirPods 4,Earbuds,249,Fall,4.5
+1686,C0085,37,Female,AirPods Max 2,Headphones,799,Spring,4.8
+1687,C0302,30,Male,AirPods 3,Earbuds,179,Summer,4
+1688,C0507,19,Male,AirPods Pro 3,Earbuds,329,Fall,4.8
+1689,C0711,40,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1690,C0758,41,Male,AirPods 3,Earbuds,179,Spring,4.9
+1691,C0146,32,Male,AirPods Max 2,Headphones,799,Summer,4.2
+1692,C0019,50,Male,AirPods Pro 3,Earbuds,329,Spring,4
+1693,C0070,53,Male,AirPods 4,Earbuds,249,Spring,4.7
+1694,C0829,38,Male,AirPods 4,Earbuds,249,Spring,4.6
+1695,C0931,35,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1696,C0005,44,Female,AirPods 4,Earbuds,249,Summer,4.3
+1697,C0117,35,Male,AirPods 4,Earbuds,249,Fall,4.7
+1698,C0865,64,Male,AirPods 4,Earbuds,249,Spring,4.8
+1699,C0549,54,Male,AirPods 3,Earbuds,179,Fall,4.4
+1700,C0021,23,Female,AirPods Pro 3,Earbuds,329,Summer,4.1
+1701,C0019,43,Male,AirPods 4,Earbuds,249,Winter,4.2
+1702,C0880,29,Male,AirPods 4,Earbuds,249,Fall,4.1
+1703,C0307,40,Female,AirPods Pro 3,Earbuds,329,Fall,4.3
+1704,C0260,37,Male,AirPods 4,Earbuds,249,Winter,4.4
+1705,C0051,23,Male,AirPods 4,Earbuds,249,Fall,4.2
+1706,C0604,59,Female,AirPods 3,Earbuds,179,Fall,1.5
+1707,C0844,38,Male,AirPods Max 2,Headphones,799,Spring,4.8
+1708,C0119,36,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1709,C0764,18,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1710,C0054,41,Male,AirPods 4,Earbuds,249,Winter,4.4
+1711,C0682,52,Female,AirPods Pro 3,Earbuds,329,Spring,4.5
+1712,C0808,39,Female,AirPods 4,Earbuds,249,Spring,4
+1713,C0630,17,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1714,C0874,55,Male,AirPods 4,Earbuds,249,Winter,4.6
+1715,C0079,54,Female,AirPods 4,Earbuds,249,Fall,4.7
+1716,C0087,60,Female,AirPods Max 2,Headphones,799,Summer,4.7
+1717,C0765,17,Female,AirPods 4,Earbuds,249,Winter,4.9
+1718,C0845,47,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1719,C0185,22,Female,AirPods 4,Earbuds,249,Fall,4.1
+1720,C0159,58,Male,AirPods Pro 3,Earbuds,329,Spring,4.4
+1721,C0582,19,Male,AirPods 3,Earbuds,179,Winter,4.2
+1722,C0885,57,Male,AirPods 3,Earbuds,179,Spring,4.6
+1723,C0585,40,Male,AirPods Pro 3,Earbuds,329,Fall,4.9
+1724,C0417,47,Male,AirPods 3,Earbuds,179,Winter,4.2
+1725,C0835,54,Male,AirPods 3,Earbuds,179,Winter,4.6
+1726,C0572,47,Female,AirPods 4,Earbuds,249,Winter,4.1
+1727,C0873,50,Male,AirPods 4,Earbuds,249,Fall,4.4
+1728,C0025,47,Female,AirPods Pro 3,Earbuds,329,Spring,4.7
+1729,C0524,55,Male,AirPods Pro 3,Earbuds,329,Fall,4.6
+1730,C0940,23,Female,AirPods Pro 3,Earbuds,329,Winter,4.7
+1731,C0558,41,Male,AirPods 4,Earbuds,249,Winter,4.2
+1732,C0182,44,Male,AirPods Pro 3,Earbuds,329,Winter,4.5
+1733,C0347,63,Male,AirPods 3,Earbuds,179,Winter,4.9
+1734,C0705,22,Female,AirPods Max 2,Headphones,799,Fall,4.1
+1735,C0149,21,Female,AirPods Max 2,Headphones,799,Spring,4.3
+1736,C0902,61,Female,AirPods 3,Earbuds,179,Spring,4.1
+1737,C0266,61,Male,AirPods Pro 3,Earbuds,329,Spring,4.1
+1738,C0684,45,Non-binary,AirPods 4,Earbuds,249,Summer,2.8
+1739,C0016,22,Male,AirPods 4,Earbuds,249,Summer,4.7
+1740,C0669,64,Female,AirPods 4,Earbuds,249,Winter,4.1
+1741,C0434,18,Male,AirPods 3,Earbuds,179,Winter,4.1
+1742,C0960,34,Male,AirPods Pro 3,Earbuds,329,Fall,4.4
+1743,C0267,22,Non-binary,AirPods 4,Earbuds,249,Spring,4.7
+1744,C0595,43,Non-binary,AirPods 4,Earbuds,249,Winter,4.6
+1745,C0963,37,Female,AirPods Max 2,Headphones,799,Spring,4.9
+1746,C0585,62,Female,AirPods 4,Earbuds,249,Summer,4.1
+1747,C0908,36,Female,AirPods 4,Earbuds,249,Spring,4.8
+1748,C0932,48,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1749,C0836,26,Non-binary,AirPods Pro 3,Earbuds,329,Summer,4.1
+1750,C0117,45,Male,AirPods 4,Earbuds,249,Fall,4
+1751,C0609,33,Female,AirPods Pro 3,Earbuds,329,Spring,4
+1752,C0337,42,Male,AirPods Pro 3,Earbuds,329,Spring,4.3
+1753,C0362,50,Female,AirPods 3,Earbuds,179,Fall,4.6
+1754,C0088,33,Male,AirPods 3,Earbuds,179,Winter,1.2
+1755,C0189,17,Male,AirPods 4,Earbuds,249,Fall,4.6
+1756,C0838,43,Male,AirPods Pro 3,Earbuds,329,Summer,3.5
+1757,C0915,65,Female,AirPods 4,Earbuds,249,Fall,4.2
+1758,C0137,30,Male,AirPods Pro 3,Earbuds,329,Winter,4.9
+1759,C0077,42,Male,AirPods 4,Earbuds,249,Winter,4.9
+1760,C0503,28,Female,AirPods Pro 3,Earbuds,329,Winter,4.5
+1761,C0523,46,Female,AirPods 4,Earbuds,249,Summer,4.9
+1762,C0167,54,Male,AirPods Max 2,Headphones,799,Fall,4.7
+1763,C0319,45,Female,AirPods Pro 3,Earbuds,329,Fall,4.4
+1764,C0473,42,Male,AirPods Pro 3,Earbuds,329,Fall,4.9
+1765,C0334,21,Non-binary,AirPods 3,Earbuds,179,Spring,4.8
+1766,C0328,61,Male,AirPods Max 2,Headphones,799,Winter,4.8
+1767,C0133,23,Female,AirPods Pro 3,Earbuds,329,Spring,4.7
+1768,C0322,21,Female,AirPods Max 2,Headphones,799,Winter,4.6
+1769,C0394,62,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1770,C0153,65,Male,AirPods Max 2,Headphones,799,Winter,4.4
+1771,C0146,22,Male,AirPods 3,Earbuds,179,Fall,4.4
+1772,C0528,49,Male,AirPods 4,Earbuds,249,Summer,4.4
+1773,C0927,18,Female,AirPods 4,Earbuds,249,Summer,4.4
+1774,C0376,26,Female,AirPods 3,Earbuds,179,Spring,5
+1775,C0305,19,Male,AirPods 4,Earbuds,249,Summer,4.6
+1776,C0640,33,Female,AirPods 3,Earbuds,179,Fall,4.6
+1777,C0643,24,Female,AirPods Pro 3,Earbuds,329,Winter,4.1
+1778,C0664,37,Female,AirPods 4,Earbuds,249,Winter,4.9
+1779,C0796,16,Female,AirPods Pro 3,Earbuds,329,Fall,4.1
+1780,C0219,25,Female,AirPods 4,Earbuds,249,Fall,4.2
+1781,C0150,16,Female,AirPods Pro 3,Earbuds,329,Winter,4
+1782,C0356,30,Female,AirPods 4,Earbuds,249,Fall,4.9
+1783,C0446,39,Male,AirPods Pro 3,Earbuds,329,Spring,4.5
+1784,C0330,33,Female,AirPods Pro 3,Earbuds,329,Summer,4
+1785,C0459,21,Male,AirPods 3,Earbuds,179,Winter,4.4
+1786,C0980,55,Female,AirPods 4,Earbuds,249,Spring,5
+1787,C0777,30,Female,AirPods 4,Earbuds,249,Spring,4.8
+1788,C0405,33,Female,AirPods Pro 3,Earbuds,329,Fall,4.3
+1789,C0626,47,Male,AirPods Pro 3,Earbuds,329,Summer,4.4
+1790,C0943,46,Male,AirPods 4,Earbuds,249,Fall,1.6
+1791,C0808,50,Male,AirPods 4,Earbuds,249,Spring,4.5
+1792,C0326,45,Male,AirPods 4,Earbuds,249,Spring,4.6
+1793,C0582,25,Male,AirPods 4,Earbuds,249,Summer,4.8
+1794,C0030,49,Female,AirPods Pro 3,Earbuds,329,Fall,4.9
+1795,C0604,43,Female,AirPods Max 2,Headphones,799,Summer,4.9
+1796,C0826,55,Male,AirPods 3,Earbuds,179,Summer,4.1
+1797,C0348,64,Male,AirPods Pro 3,Earbuds,329,Spring,4.3
+1798,C0021,46,Female,AirPods Pro 3,Earbuds,329,Spring,4.6
+1799,C0965,35,Male,AirPods 4,Earbuds,249,Spring,4.9
+1800,C0200,17,Female,AirPods 3,Earbuds,179,Summer,4.9
+1801,C0299,40,Female,AirPods Pro 3,Earbuds,329,Fall,4.8
+1802,C0825,19,Female,AirPods Pro 3,Earbuds,329,Summer,4.3
+1803,C0309,20,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1804,C0391,32,Female,AirPods 3,Earbuds,179,Summer,4.6
+1805,C0543,21,Female,AirPods 4,Earbuds,249,Summer,4.9
+1806,C0832,48,Male,AirPods 4,Earbuds,249,Fall,5
+1807,C0160,47,Other,AirPods 4,Earbuds,249,Fall,4.9
+1808,C0909,32,Male,AirPods Max 2,Headphones,799,Spring,4.4
+1809,C0321,19,Female,AirPods 4,Earbuds,249,Winter,4.3
+1810,C0540,29,Female,AirPods Pro 3,Earbuds,329,Summer,4
+1811,C0425,50,Female,AirPods 4,Earbuds,249,Fall,4.5
+1812,C0839,55,Male,AirPods 3,Earbuds,179,Winter,4.8
+1813,C0428,36,Female,AirPods 4,Earbuds,249,Winter,4.4
+1814,C0607,32,Male,AirPods 4,Earbuds,249,Winter,4.4
+1815,C0174,23,Female,AirPods 4,Earbuds,249,Summer,4.5
+1816,C0882,65,Non-binary,AirPods Pro 3,Earbuds,329,Fall,4.1
+1817,C0042,43,Female,AirPods Pro 3,Earbuds,329,Winter,4.2
+1818,C0655,32,Male,AirPods 3,Earbuds,179,Summer,4.3
+1819,C0422,19,Female,AirPods Max 2,Headphones,799,Fall,4.7
+1820,C0713,27,Non-binary,AirPods 3,Earbuds,179,Spring,4.1
+1821,C0401,44,Male,AirPods 3,Earbuds,179,Winter,4.3
+1822,C0566,33,Male,AirPods 4,Earbuds,249,Spring,4.5
+1823,C0343,45,Male,AirPods 4,Earbuds,249,Summer,4.6
+1824,C0135,41,Female,AirPods Pro 3,Earbuds,329,Winter,3.8
+1825,C0990,18,Male,AirPods Pro 3,Earbuds,329,Summer,4.9
+1826,C0443,28,Female,AirPods 4,Earbuds,249,Spring,4.3
+1827,C0329,62,Female,AirPods Max 2,Headphones,799,Fall,4.5
+1828,C0892,23,Male,AirPods 4,Earbuds,249,Winter,4.6
+1829,C0854,23,Male,AirPods 4,Earbuds,249,Winter,4.6
+1830,C0793,20,Male,AirPods Pro 3,Earbuds,329,Winter,4.6
+1831,C0859,28,Female,AirPods 3,Earbuds,179,Spring,4.7
+1832,C0020,38,Male,AirPods 4,Earbuds,249,Fall,4
+1833,C0848,19,Male,AirPods 4,Earbuds,249,Fall,4.5
+1834,C0525,27,Female,AirPods Pro 3,Earbuds,329,Fall,4.2
+1835,C0155,23,Male,AirPods 4,Earbuds,249,Winter,4
+1836,C0568,35,Female,AirPods 4,Earbuds,249,Fall,5
+1837,C0355,29,Male,AirPods 3,Earbuds,179,Winter,4.6
+1838,C0704,32,Male,AirPods Pro 3,Earbuds,329,Summer,4
+1839,C0510,64,Female,AirPods 4,Earbuds,249,Spring,5
+1840,C0937,51,Female,AirPods 3,Earbuds,179,Fall,4.6
+1841,C0031,65,Male,AirPods 4,Earbuds,249,Fall,4.4
+1842,C0702,52,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1843,C0765,45,Female,AirPods 4,Earbuds,249,Spring,4.2
+1844,C0169,28,Female,AirPods Max 2,Headphones,799,Summer,4.5
+1845,C0094,56,Female,AirPods Pro 3,Earbuds,329,Spring,4.5
+1846,C0637,33,Male,AirPods Max 2,Headphones,799,Winter,4.9
+1847,C0777,19,Male,AirPods 4,Earbuds,249,Spring,4.6
+1848,C0861,56,Female,AirPods Pro 3,Earbuds,329,Fall,4.4
+1849,C0308,43,Male,AirPods 4,Earbuds,249,Winter,4.8
+1850,C0176,42,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1851,C0319,65,Male,AirPods Max 2,Headphones,799,Spring,4.4
+1852,C0097,33,Male,AirPods Max 2,Headphones,799,Fall,4.4
+1853,C0841,59,Female,AirPods 4,Earbuds,249,Fall,4.2
+1854,C0663,50,Female,AirPods 3,Earbuds,179,Summer,4.7
+1855,C0918,62,Female,AirPods 4,Earbuds,249,Spring,4.4
+1856,C0823,59,Male,AirPods Max 2,Headphones,799,Summer,4.4
+1857,C0617,24,Male,AirPods 3,Earbuds,179,Spring,4
+1858,C0253,58,Female,AirPods Pro 3,Earbuds,329,Spring,4.8
+1859,C0559,42,Male,AirPods Pro 3,Earbuds,329,Summer,4.8
+1860,C0712,29,Female,AirPods 4,Earbuds,249,Summer,4.8
+1861,C0417,65,Female,AirPods Max 2,Headphones,799,Fall,4.8
+1862,C0169,39,Male,AirPods Max 2,Headphones,799,Winter,4.1
+1863,C0729,51,Female,AirPods 4,Earbuds,249,Spring,4.8
+1864,C0488,27,Male,AirPods 3,Earbuds,179,Fall,4.1
+1865,C0728,32,Female,AirPods 3,Earbuds,179,Winter,4.8
+1866,C0361,18,Male,AirPods Pro 3,Earbuds,329,Fall,4
+1867,C0016,62,Non-binary,AirPods 3,Earbuds,179,Summer,4.5
+1868,C0413,60,Female,AirPods 4,Earbuds,249,Spring,4.8
+1869,C0748,36,Male,AirPods 3,Earbuds,179,Winter,4.7
+1870,C0869,29,Male,AirPods 4,Earbuds,249,Winter,4.8
+1871,C0815,27,Female,AirPods 3,Earbuds,179,Summer,4.4
+1872,C0051,34,Female,AirPods 3,Earbuds,179,Summer,4.1
+1873,C0303,38,Male,AirPods 3,Earbuds,179,Spring,4.9
+1874,C0086,59,Female,AirPods Max 2,Headphones,799,Spring,4.3
+1875,C0153,50,Non-binary,AirPods Pro 3,Earbuds,329,Winter,4.3
+1876,C0469,53,Male,AirPods Pro 3,Earbuds,329,Fall,4.9
+1877,C0332,35,Female,AirPods 3,Earbuds,179,Summer,4.9
+1878,C0946,37,Male,AirPods Max 2,Headphones,799,Spring,4.1
+1879,C0827,58,Female,AirPods Pro 3,Earbuds,329,Summer,4.6
+1880,C0141,61,Male,AirPods Max 2,Headphones,799,Summer,4.8
+1881,C0268,31,Male,AirPods 4,Earbuds,249,Spring,4.1
+1882,C0933,60,Female,AirPods Pro 3,Earbuds,329,Winter,4.5
+1883,C0642,63,Male,AirPods 3,Earbuds,179,Winter,4.7
+1884,C0989,39,Non-binary,AirPods Pro 3,Earbuds,329,Winter,4.4
+1885,C0845,31,Female,AirPods 4,Earbuds,249,Spring,4.2
+1886,C0058,29,Male,AirPods 4,Earbuds,249,Summer,4
+1887,C0063,64,Male,AirPods Pro 3,Earbuds,329,Fall,4.6
+1888,C0558,26,Male,AirPods 4,Earbuds,249,Summer,4.7
+1889,C0627,34,Female,AirPods Pro 3,Earbuds,329,Summer,4.1
+1890,C0776,40,Female,AirPods 4,Earbuds,249,Fall,4.4
+1891,C0710,18,Male,AirPods Max 2,Headphones,799,Winter,4.6
+1892,C0740,20,Female,AirPods 4,Earbuds,249,Spring,4.3
+1893,C0978,18,Male,AirPods Pro 3,Earbuds,329,Winter,4.9
+1894,C0751,23,Female,AirPods 3,Earbuds,179,Winter,4.7
+1895,C0714,18,Male,AirPods Pro 3,Earbuds,329,Winter,4.4
+1896,C0041,39,Female,AirPods Pro 3,Earbuds,329,Winter,4.9
+1897,C0909,24,Female,AirPods 4,Earbuds,249,Fall,5
+1898,C0101,58,Male,AirPods Pro 3,Earbuds,329,Summer,4.5
+1899,C0171,45,Female,AirPods Pro 3,Earbuds,329,Fall,4.9
+1900,C0256,17,Female,AirPods 4,Earbuds,249,Spring,4.1
+1901,C0324,47,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1902,C0165,35,Other,AirPods 4,Earbuds,249,Spring,4.5
+1903,C0480,49,Female,AirPods Pro 3,Earbuds,329,Winter,4.4
+1904,C0043,40,Female,AirPods Pro 3,Earbuds,329,Spring,4.3
+1905,C0212,60,Male,AirPods 3,Earbuds,179,Winter,4.9
+1906,C0348,19,Male,AirPods Pro 3,Earbuds,329,Fall,4.2
+1907,C0981,45,Male,AirPods Pro 3,Earbuds,329,Fall,4.2
+1908,C0555,29,Male,AirPods Pro 3,Earbuds,329,Summer,4.5
+1909,C0423,62,Male,AirPods Pro 3,Earbuds,329,Summer,4.1
+1910,C0317,30,Male,AirPods 4,Earbuds,249,Summer,2.2
+1911,C0247,52,Male,AirPods Max 2,Headphones,799,Fall,4.6
+1912,C0574,64,Male,AirPods 3,Earbuds,179,Summer,4.4
+1913,C0508,29,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1914,C0797,62,Female,AirPods 4,Earbuds,249,Summer,4.7
+1915,C0977,39,Male,AirPods Pro 3,Earbuds,329,Spring,4
+1916,C0064,26,Female,AirPods Pro 3,Earbuds,329,Fall,4.6
+1917,C0034,32,Female,AirPods 4,Earbuds,249,Spring,4.1
+1918,C0478,42,Female,AirPods 4,Earbuds,249,Fall,4.5
+1919,C0120,57,Female,AirPods Pro 3,Earbuds,329,Summer,4.7
+1920,C0584,34,Male,AirPods 4,Earbuds,249,Spring,4.4
+1921,C0476,47,Male,AirPods Pro 3,Earbuds,329,Summer,4.5
+1922,C0980,35,Male,AirPods 4,Earbuds,249,Summer,4.9
+1923,C0277,47,Male,AirPods 4,Earbuds,249,Summer,4.8
+1924,C0447,39,Female,AirPods 4,Earbuds,249,Summer,4.2
+1925,C0634,51,Male,AirPods 3,Earbuds,179,Summer,4.4
+1926,C0980,33,Female,AirPods 3,Earbuds,179,Winter,4.5
+1927,C0805,49,Male,AirPods Pro 3,Earbuds,329,Winter,4.5
+1928,C0173,51,Male,AirPods Pro 3,Earbuds,329,Spring,4.3
+1929,C0961,56,Male,AirPods Max 2,Headphones,799,Spring,4.8
+1930,C0790,37,Male,AirPods 4,Earbuds,249,Spring,4.3
+1931,C0202,25,Female,AirPods Pro 3,Earbuds,329,Summer,5
+1932,C0549,33,Female,AirPods 3,Earbuds,179,Spring,4.7
+1933,C0104,43,Male,AirPods 4,Earbuds,249,Winter,4.9
+1934,C0912,33,Male,AirPods 4,Earbuds,249,Fall,4.1
+1935,C0585,37,Male,AirPods Pro 3,Earbuds,329,Summer,4.4
+1936,C0837,29,Male,AirPods 4,Earbuds,249,Fall,4.2
+1937,C0128,65,Male,AirPods Pro 3,Earbuds,329,Summer,4.2
+1938,C0767,19,Male,AirPods 4,Earbuds,249,Fall,4.9
+1939,C0656,62,Male,AirPods Pro 3,Earbuds,329,Fall,5
+1940,C0641,62,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1941,C0916,42,Male,AirPods Pro 3,Earbuds,329,Fall,4.8
+1942,C0381,26,Female,AirPods 4,Earbuds,249,Summer,4.7
+1943,C0866,58,Male,AirPods 3,Earbuds,179,Spring,4.5
+1944,C0911,35,Female,AirPods 3,Earbuds,179,Winter,4.1
+1945,C0170,60,Female,AirPods Max 2,Headphones,799,Spring,4.9
+1946,C0407,53,Female,AirPods 4,Earbuds,249,Winter,4.7
+1947,C0218,21,Male,AirPods Pro 3,Earbuds,329,Spring,4.7
+1948,C0141,61,Other,AirPods 4,Earbuds,249,Spring,4.2
+1949,C0379,36,Male,AirPods Pro 3,Earbuds,329,Winter,5
+1950,C0085,31,Female,AirPods 4,Earbuds,249,Summer,4.4
+1951,C0423,54,Male,AirPods Pro 3,Earbuds,329,Winter,4.8
+1952,C0222,47,Male,AirPods 4,Earbuds,249,Winter,4.9
+1953,C0250,64,Male,AirPods 4,Earbuds,249,Winter,4.4
+1954,C0929,64,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1955,C0237,41,Female,AirPods Pro 3,Earbuds,329,Spring,4.9
+1956,C0255,25,Male,AirPods Pro 3,Earbuds,329,Spring,4.9
+1957,C0722,55,Female,AirPods 4,Earbuds,249,Spring,4.8
+1958,C0259,30,Male,AirPods Max 2,Headphones,799,Winter,4.8
+1959,C0638,46,Male,AirPods 3,Earbuds,179,Winter,4.1
+1960,C0666,49,Male,AirPods 4,Earbuds,249,Summer,4.2
+1961,C0742,55,Male,AirPods 3,Earbuds,179,Summer,4.7
+1962,C0026,33,Non-binary,AirPods Pro 3,Earbuds,329,Spring,4.7
+1963,C0064,53,Male,AirPods 4,Earbuds,249,Spring,4.5
+1964,C0701,50,Female,AirPods 4,Earbuds,249,Summer,4.3
+1965,C0916,21,Female,AirPods 4,Earbuds,249,Spring,4.9
+1966,C0876,30,Male,AirPods 3,Earbuds,179,Winter,4.7
+1967,C0472,44,Female,AirPods 4,Earbuds,249,Winter,4.2
+1968,C0844,65,Female,AirPods Pro 3,Earbuds,329,Fall,5
+1969,C0282,45,Non-binary,AirPods 4,Earbuds,249,Summer,4.8
+1970,C0369,20,Male,AirPods 4,Earbuds,249,Fall,4.5
+1971,C0721,50,Female,AirPods 4,Earbuds,249,Summer,4.7
+1972,C0271,19,Female,AirPods 4,Earbuds,249,Summer,4.7
+1973,C0912,50,Male,AirPods 4,Earbuds,249,Winter,4.7
+1974,C0853,57,Female,AirPods 4,Earbuds,249,Spring,4.2
+1975,C0255,45,Male,AirPods Pro 3,Earbuds,329,Fall,4.8
+1976,C0293,41,Male,AirPods 3,Earbuds,179,Summer,4.1
+1977,C0712,30,Female,AirPods 4,Earbuds,249,Spring,4.8
+1978,C0047,51,Male,AirPods Pro 3,Earbuds,329,Winter,4.2
+1979,C0802,46,Female,AirPods Pro 3,Earbuds,329,Fall,4.1
+1980,C0204,53,Female,AirPods 3,Earbuds,179,Winter,4.5
+1981,C0237,37,Female,AirPods Pro 3,Earbuds,329,Summer,4.4
+1982,C0841,22,Female,AirPods Pro 3,Earbuds,329,Spring,4.4
+1983,C0667,63,Male,AirPods 4,Earbuds,249,Spring,4.7
+1984,C0453,22,Female,AirPods 4,Earbuds,249,Winter,4.1
+1985,C0922,58,Male,AirPods 4,Earbuds,249,Fall,4.2
+1986,C0345,61,Female,AirPods 3,Earbuds,179,Fall,4.3
+1987,C0462,33,Female,AirPods 4,Earbuds,249,Summer,4.6
+1988,C0558,58,Female,AirPods 3,Earbuds,179,Summer,4.3
+1989,C0357,22,Male,AirPods 4,Earbuds,249,Spring,4.7
+1990,C0176,57,Female,AirPods 3,Earbuds,179,Fall,4.9
+1991,C0959,27,Non-binary,AirPods Pro 3,Earbuds,329,Fall,4.9
+1992,C0385,63,Female,AirPods 4,Earbuds,249,Spring,5
+1993,C0832,34,Male,AirPods Pro 3,Earbuds,329,Winter,4.1
+1994,C0757,60,Male,AirPods Pro 3,Earbuds,329,Summer,4.9
+1995,C0280,43,Male,AirPods 4,Earbuds,249,Summer,4.4
+1996,C0753,46,Male,AirPods 4,Earbuds,249,Summer,1.8
+1997,C0939,16,Non-binary,AirPods 3,Earbuds,179,Spring,4.1
+1998,C0691,65,Female,AirPods Pro 3,Earbuds,329,Winter,4.2
+1999,C0894,54,Female,AirPods Pro 3,Earbuds,329,Spring,4.6
+2000,C0015,34,Male,AirPods Pro 3,Earbuds,329,Winter,4.3
