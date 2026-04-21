@@ -1,21 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const AirPodCard = ({ product, isLoggedIn }) => {
+const AirPodCard = ({ product }) => {
+  // State to handle the "Buy Now" loading process
+  const [isPurchasing, setIsPurchasing] = useState(false);
+
+  const handleBuyNow = async () => {
+    setIsPurchasing(true);
+
+    // EXACT MATCH for Backend req.body:
+    // The database guy's code expects: productId, customerName, price
+    const orderData = {
+      productId: product.ProductID, 
+      customerName: "Guest Customer", 
+      price: product.Price
+    };
+
+    try {
+      const response = await fetch('/api/CreateOrder', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(orderData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        // result.orderId comes directly from the backend's SQL OUTPUT INSERTED.OrderID
+        alert(`Order placed successfully!\nOrder ID: ${result.orderId}\nStatus: Pending Background Processing`);
+      } else {
+        alert(`Order failed: ${result.message || 'Server Error'}`);
+      }
+    } catch (error) {
+      console.error("Connection Error:", error);
+      alert("Cannot reach the server. Please check your connection.");
+    } finally {
+      setIsPurchasing(false);
+    }
+  };
+
   return (
     <div style={cardStyle}>
       <div style={categoryTagStyle}>{product.Category}</div>
 
-      {/* FIXED: The image container now has a set height and crops/fits perfectly */}
       <div style={imageContainer}>
         <img 
           src={product.ImageURL} 
           alt={product.Name} 
           style={imageStyle} 
-          onError={(e) => { e.target.src = 'https://via.placeholder.com/300x300?text=AirPods+Image'; }}
+          onError={(e) => { e.target.src = 'https://via.placeholder.com/300x300?text=AirPods'; }}
         />
       </div>
 
-      {/* FIXED: Content wrapper ensures text is aligned even if one description is longer */}
       <div style={contentWrapper}>
         <h2 style={nameStyle}>{product.Name}</h2>
         <p style={descriptionStyle}>{product.Description}</p>
@@ -24,46 +61,40 @@ const AirPodCard = ({ product, isLoggedIn }) => {
         </div>
       </div>
 
-      {/* FIXED: Button stays at the absolute bottom of the card */}
-      {isLoggedIn ? (
-        <button 
-          style={buttonStyle}
-          onMouseOver={(e) => (e.target.style.backgroundColor = '#005bb5')}
-          onMouseOut={(e) => (e.target.style.backgroundColor = '#0071e3')}
-          onClick={() => console.log(`Request sent: Buying ${product.Name}`)}
-        >
-          Buy Now
-        </button>
-      ) : (
-        <a 
-          href="/.auth/login/aad" 
-          style={{...buttonStyle, textDecoration: 'none', display: 'block'}}
-        >
-          Sign In to Buy
-        </a>
-      )}
+      <button 
+        style={{
+          ...buttonStyle,
+          backgroundColor: isPurchasing ? '#86868b' : '#0071e3',
+          cursor: isPurchasing ? 'not-allowed' : 'pointer'
+        }}
+        disabled={isPurchasing}
+        onMouseOver={(e) => !isPurchasing && (e.target.style.backgroundColor = '#005bb5')}
+        onMouseOut={(e) => !isPurchasing && (e.target.style.backgroundColor = '#0071e3')}
+        onClick={handleBuyNow}
+      >
+        {isPurchasing ? 'Processing...' : 'Buy Now'}
+      </button>
     </div>
   );
 };
 
-// --- Updated Component Styles ---
+// --- Styles (Apple-inspired clean look) ---
 
 const cardStyle = {
-  backgroundColor: '#ffffff', // Clean white background
+  backgroundColor: '#ffffff',
   borderRadius: '24px',
   padding: '30px',
   textAlign: 'center',
-  width: '320px', // Standard width
-  height: '550px', // FIXED: Forcing every card to be the same height
+  width: '320px',
+  height: '550px',
   display: 'flex',
   flexDirection: 'column',
   boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
-  transition: 'transform 0.2s ease',
   margin: '10px'
 };
 
 const imageContainer = {
-  height: '220px', // FIXED: All image areas are now identical
+  height: '220px',
   width: '100%',
   display: 'flex',
   alignItems: 'center',
@@ -75,11 +106,11 @@ const imageContainer = {
 const imageStyle = {
   maxWidth: '100%',
   maxHeight: '100%',
-  objectFit: 'contain' // FIXED: Ensures images aren't stretched or squished
+  objectFit: 'contain'
 };
 
 const contentWrapper = {
-  flexGrow: 1, // Pushes the button to the bottom
+  flexGrow: 1,
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'flex-start'
@@ -104,7 +135,7 @@ const descriptionStyle = {
   fontSize: '0.9rem',
   color: '#424245',
   lineHeight: '1.4',
-  height: '60px', // FIXED: Forces 3 lines of text so cards don't jump
+  height: '60px',
   overflow: 'hidden',
   marginBottom: '15px'
 };
@@ -120,19 +151,16 @@ const priceStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: '#0071e3', 
   color: '#ffffff',
   border: 'none',
-  padding: '8px 20px',
+  padding: '12px 24px',
   borderRadius: '20px',
   fontSize: '0.9rem',
   fontWeight: '500',
-  cursor: 'pointer',
   transition: 'background-color 0.2s ease',
   width: 'fit-content',
   margin: '0 auto',
-  textAlign: 'center',
-  minWidth: '140px'
+  minWidth: '160px'
 };
 
 export default AirPodCard;
