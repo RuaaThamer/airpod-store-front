@@ -1,0 +1,27 @@
+const sql = require('mssql');
+
+module.exports = async function(context, mySbMsg) {
+    context.log('Background Processor started for Order ID:', mySbMsg.orderId);
+    const sqlConnStr = process.env.SqlConnectionString;
+
+    try {
+        // 1. Simulated Business Logic Module
+        // Simulates heavy processing such as payment verification or inventory sync
+        await new Promise(resolve => setTimeout(resolve, 2000));
+
+        // 2. Database State Update Module
+        await sql.connect(sqlConnStr);
+        await sql.query(`
+            UPDATE Orders 
+            SET OrderStatus = 'Processed' 
+            WHERE OrderID = ${mySbMsg.orderId}
+        `);
+
+        context.log(`Order ${mySbMsg.orderId} successfully processed.`);
+
+    } catch (err) {
+        context.log.error("Processing Failed:", err.message);
+        // Error thrown here will return the message to the queue for a retry
+        throw err; 
+    }
+};

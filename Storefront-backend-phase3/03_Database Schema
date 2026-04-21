@@ -1,0 +1,9 @@
+-- Phase 3: Create Orders Table for tracking transactions and processing states
+CREATE TABLE Orders (
+    OrderID INT IDENTITY(1,1) PRIMARY KEY,
+    ProductID INT NOT NULL,
+    CustomerName NVARCHAR(100) NOT NULL,
+    TotalPrice DECIMAL(10, 2) NOT NULL,
+    OrderStatus NVARCHAR(50) DEFAULT 'Pending', -- Default state before queue processing
+    OrderDate DATETIME DEFAULT GETDATE()
+);
